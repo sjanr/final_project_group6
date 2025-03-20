@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Condor Spritesheet_0: 9035207650777570544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

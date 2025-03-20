@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nitpicker Spritesheet_0: -7778363109033271277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
