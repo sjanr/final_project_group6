@@ -117,9 +117,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 207
-        height: 180
+        y: 150
+        width: 23
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,11 +134,1177 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928dd1ae9b555104b997c87628411e73
+      internalID: 474548601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68115c358dd1da74a87440fdeeb7d0ea
+      internalID: -1979767190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769835217d0a5f844bb873f73cc04bbc
+      internalID: -397968661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce76f39c3ec0d74e884d15de3065653
+      internalID: 2124859806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d17a49dddf9f542987e4305b0542e5
+      internalID: -300864837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273fcb75e8a7cdd4a8bfed9ded1d0e2b
+      internalID: -1016053960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fae982b03085bf4db1ffa7f0fabed36
+      internalID: 1714729705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d416fa1bdab75ad4f89200e245d3a668
+      internalID: -832696085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bae9249a5e8328469bec4ee147f973e
+      internalID: -739750222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11f1fcc4d5e9bc4b9c86f604e610ee9
+      internalID: 1664541081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b5b78305a5a2d4bb1ce45c33a16ca2
+      internalID: 1417082990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d816973ec26bb1488c28547d04e2640
+      internalID: -1500113777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82fb72e190ae3c46b6dbb0b284873b4
+      internalID: -578136078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3ae6793fcd8cf49b163b52ab4ace17
+      internalID: 809830155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78948860e2d65ca4a9e85bd9b2a73dfd
+      internalID: 1200485444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a70dc071fc7f3499cc07be5dc75747
+      internalID: 926242982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf6fd6786eefa94191771afdcd44e9b
+      internalID: 208596838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a9ae50b00b7d2478f21d3f459e7eec
+      internalID: -1629618378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b832b1cd934ed6047881af8d64a98a49
+      internalID: -91850589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052b6f06b6f616b4ea4ebe7090b30b0f
+      internalID: 1435573844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aae6033bee1004aac6082f826da7e7
+      internalID: -1641534260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b3146dca5792a48954650945b1b282
+      internalID: -859082174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b5823b94dadf64dbba5226ebe3187f
+      internalID: -1400128986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d06c7c3685017345945f8ec6e95af6b
+      internalID: 1588471919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6987cad59f21244b3560cf13933d00
+      internalID: -244802381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79518a0b69d068845803a5e61d9afd70
+      internalID: 766820669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5e0e91fec4fbc4fb5b112fcfa961e5
+      internalID: -363965165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d449b6a0ea724542a036522d928ff21
+      internalID: 118057853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec795fcabe561224aad47a2fc1cb8210
+      internalID: -172574165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411d6017ccdd7bb45b114a94e4351c0a
+      internalID: 502017591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8752c49fe0b2b54489c206f46410a1b
+      internalID: 756916557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e968787bb5008244b9b77dfd4b59fc5d
+      internalID: 20677262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff4d36a9d9439544b4499c1f6215469
+      internalID: 823241961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ce4267585ea854cbb9552cfa4a3b68
+      internalID: -1822740730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f1c790a05eac54dafc47f2c67c7d9a
+      internalID: 1989610517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737a2d957604e0e43895fe88962824cb
+      internalID: -185003174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aba3bc62430f9e468aec7950221fb31
+      internalID: 2040944109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15db3fc2ad654d2419a87be620f16e5c
+      internalID: 1722168576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fd1f83db19d244da216c809d6ff269
+      internalID: 165282516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724080061322f85439fa43a96b1ce8f8
+      internalID: -548842197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e344620cddb61b942b0abf1db16b69b1
+      internalID: -235625294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da98dc5a1903214bab045d93a33b9f9
+      internalID: 1107763067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e9b2670e1abcc40bb036d7a441003b
+      internalID: 655724807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3531d546ea868a84d8495b75baad289e
+      internalID: 697950723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ce16914f385f943b63e2a7ef009faf
+      internalID: -945178087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa1e94a71621bb439d8b3e8068bde6f
+      internalID: -1995001641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e0144659ab2c4c98adb4cb8e00f63
+      internalID: 1789589192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199c57fdb2ebdd4f9be447a64cbba4d
+      internalID: -105154852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b73b5bc6fd681e479803d7c96fe403f
+      internalID: -1890231841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21a56e661c9e04dae755c1ded965f5
+      internalID: -429300085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c5b214998f8d444a48edaacbf96d5c
+      internalID: 1280716313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed2a6f7f9d4fca47b116dbdfce8fbf6
+      internalID: 953682531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3dfae773a96e419cd3df7cd55f5bf
+      internalID: -1296443111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 733141ac791d7b9468fba61687f18cce
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +1315,59 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Popo Spritesheet_0: 4801788718887679021
+      Popo Spritesheet_1: 474548601
+      Popo Spritesheet_10: 1664541081
+      Popo Spritesheet_11: 1417082990
+      Popo Spritesheet_12: -1500113777
+      Popo Spritesheet_13: -578136078
+      Popo Spritesheet_14: 809830155
+      Popo Spritesheet_15: 1200485444
+      Popo Spritesheet_16: 926242982
+      Popo Spritesheet_17: 208596838
+      Popo Spritesheet_18: -1629618378
+      Popo Spritesheet_19: -91850589
+      Popo Spritesheet_2: -1979767190
+      Popo Spritesheet_20: 1435573844
+      Popo Spritesheet_21: -1641534260
+      Popo Spritesheet_22: -859082174
+      Popo Spritesheet_23: -1400128986
+      Popo Spritesheet_24: 1588471919
+      Popo Spritesheet_25: -244802381
+      Popo Spritesheet_26: 766820669
+      Popo Spritesheet_27: -363965165
+      Popo Spritesheet_28: 118057853
+      Popo Spritesheet_29: -172574165
+      Popo Spritesheet_3: -397968661
+      Popo Spritesheet_30: 502017591
+      Popo Spritesheet_31: 756916557
+      Popo Spritesheet_32: 20677262
+      Popo Spritesheet_33: 823241961
+      Popo Spritesheet_34: -1822740730
+      Popo Spritesheet_35: 1989610517
+      Popo Spritesheet_36: -185003174
+      Popo Spritesheet_37: 2040944109
+      Popo Spritesheet_38: 1722168576
+      Popo Spritesheet_39: 165282516
+      Popo Spritesheet_4: 2124859806
+      Popo Spritesheet_40: -548842197
+      Popo Spritesheet_41: -235625294
+      Popo Spritesheet_42: 1107763067
+      Popo Spritesheet_43: 655724807
+      Popo Spritesheet_44: 697950723
+      Popo Spritesheet_45: -945178087
+      Popo Spritesheet_46: -1995001641
+      Popo Spritesheet_47: 1789589192
+      Popo Spritesheet_48: -105154852
+      Popo Spritesheet_49: -1890231841
+      Popo Spritesheet_5: -300864837
+      Popo Spritesheet_50: -429300085
+      Popo Spritesheet_51: 1280716313
+      Popo Spritesheet_52: 953682531
+      Popo Spritesheet_53: -1296443111
+      Popo Spritesheet_6: -1016053960
+      Popo Spritesheet_7: 1714729705
+      Popo Spritesheet_8: -832696085
+      Popo Spritesheet_9: -739750222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
