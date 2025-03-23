@@ -6,37 +6,23 @@ public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private InputHandler inputHandler;
     [SerializeField] private float checkDistance = 1f; 
-    private char weapon='1';//used to check which weapon is currently in use
+    private char weapon;//used to check which weapon is currently in use
 
     private void OnEnable()
     {
-        inputHandler.OnAttackInput += ChooseAttack;
+        inputHandler.HammerBrickBreak += HammerBrickBreak;
+        inputHandler.GunBlockLauncher += GunBlockLauncher;
     }
 
     private void OnDisable()
     {
-        inputHandler.OnAttackInput -= ChooseAttack;
+        inputHandler.HammerBrickBreak -= HammerBrickBreak;
+        inputHandler.GunBlockLauncher -= GunBlockLauncher;
     }
 
-    private void ChooseAttack(){
-        //use switch to add more weapons later
-        switch(weapon){
-            case '1':
-                Debug.Log("hammer time");
-                BreakBlockAbove();
-                break;
-            case '2':
-                Debug.Log("pew pew - americans favouite children toy");
-                break;
-            default:
-                Debug.Log("hammer time");
-                break;
-
-        }
-    }
 
     //break block above
-    private void BreakBlockAbove()
+    private void HammerBrickBreak()
     {
         Vector2 origin = transform.position;   
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance);
@@ -49,7 +35,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    private void Shoot()
+    private void GunBlockLauncher()
     {
         //implement a bullet been shot in direction of mouse
     }

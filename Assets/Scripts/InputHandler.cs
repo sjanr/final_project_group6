@@ -4,19 +4,32 @@ using UnityEngine.Events;
 
 public class InputHandler : MonoBehaviour{
 
-     public System.Action OnAttackInput;
-
+    public System.Action HammerBrickBreak;
+    public System.Action GunBlockLauncher;
+    private char weapon = '1';
 
     void Update(){
         
-        Vector3 input = Vector3.zero;
-        if (Input.GetKey(KeyCode.E)){
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
             //switch weapon
+            weapon = weapon == '1' ? '2' : '1';
+            Debug.Log("Switched to weapon " + weapon);
         }
-        if (Input.GetMouseButtonDown(0)){ //left clcik
-            //trigger attack
-            Debug.Log("mouse left click triggered");
-            OnAttackInput?.Invoke();
+
+        //attack with left click
+        if (Input.GetMouseButtonDown(0))
+        {
+            switch (weapon)
+            {
+                case '1':
+                    HammerBrickBreak?.Invoke();
+                    break;
+                case '2':
+                    GunBlockLauncher?.Invoke();
+                    break;
+            }
         }
 
         
