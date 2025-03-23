@@ -15,6 +15,7 @@ public class InputHandler : MonoBehaviour{
         }
         if (Input.GetMouseButtonDown(0)){ //left clcik
             //trigger attack
+            Debug.Log("mouse left click triggered");
             OnAttackInput?.Invoke();
         }
 
