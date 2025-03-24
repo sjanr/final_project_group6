@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3719920562046857789}
   - component: {fileID: 7642916637064909416}
   - component: {fileID: 5584408456251684591}
-  - component: {fileID: -8261419669883329982}
+  - component: {fileID: -2387636491287651025}
   m_Layer: 0
   m_Name: player_climber
   m_TagString: Untagged
@@ -116,8 +116,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!70 &-8261419669883329982
-CapsuleCollider2D:
+--- !u!61 &-2387636491287651025
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -151,5 +151,14 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.81, y: 2.86}
+    newSize: {x: 1.81, y: 2.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   m_Size: {x: 1.81, y: 2.86}
-  m_Direction: 0
+  m_EdgeRadius: 0

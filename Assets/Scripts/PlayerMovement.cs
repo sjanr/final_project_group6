@@ -2,10 +2,17 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    [SerializeField] private float jumpHeight;
     private Rigidbody2D playerBody;
+    [Header("Player Speed")]
+    [SerializeField] private float speed;
+
+    [Header("Jumping")]
+    [SerializeField] private float jumpHeight;
+    [SerializeField] private float groundCheckRadius;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
     private bool grounded;
+    
     private void Awake()
     {
         playerBody = GetComponent<Rigidbody2D>();
@@ -13,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
         float horizontalInput = Input.GetAxis("Horizontal");
         playerBody.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, playerBody.linearVelocity.y);
 
@@ -35,15 +44,6 @@ public class PlayerMovement : MonoBehaviour
     private void Jump()
     {
         playerBody.linearVelocity = new Vector2(playerBody.linearVelocity.x, jumpHeight);
-        grounded = false;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            grounded = true;
-        }
     }
 
 }
