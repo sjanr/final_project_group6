@@ -196,25 +196,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -2387636491287651025, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
-      propertyPath: m_Size.x
-      value: 1.695446
-      objectReference: {fileID: 0}
-    - target: {fileID: -2387636491287651025, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
-      propertyPath: m_Size.y
-      value: 2.7597654
-      objectReference: {fileID: 0}
-    - target: {fileID: -2387636491287651025, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: -2387636491287651025, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.014319181
-      objectReference: {fileID: 0}
-    - target: {fileID: -2387636491287651025, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.021479249
+    - target: {fileID: -3737752483470453371, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3000513587043585659, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
       propertyPath: m_Size.x
@@ -563,7 +547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpHeight: 7
+  jumpHeight: 10
   groundCheckRadius: 0.1
   groundCheck: {fileID: 1423171392}
   groundLayer:
