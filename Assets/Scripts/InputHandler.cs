@@ -25,9 +25,11 @@ public class InputHandler : MonoBehaviour{
             switch (currentWeapon)
             {
                 case WeaponType.Weapon1:
+                    Debug.Log("weapon hammer activated");
                     HammerBrickBreak?.Invoke();
                     break;
                 case WeaponType.Weapon2:
+                    Debug.Log("weapon gun activated");
                     GunBlockLauncher?.Invoke();
                     break;
             }

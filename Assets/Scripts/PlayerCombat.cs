@@ -6,7 +6,11 @@ public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] private InputHandler inputHandler;
     [SerializeField] private float checkDistance = 1f; 
-    private char weapon;//used to check which weapon is currently in use
+    [SerializeField] private GameObject projectile;
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private float GunBlockLauncherCooldown = 0.5f;
+    private float ShotTime = -Mathf.Infinity;
+
 
     private void OnEnable()
     {
@@ -37,7 +41,23 @@ public class PlayerCombat : MonoBehaviour
 
     private void GunBlockLauncher()
     {
-        //implement a bullet been shot in direction of mouse
+        if (Time.time - ShotTime < GunBlockLauncherCooldown)
+        return; // still on cooldown
+
+        ShotTime = Time.time;
+        //implement a bullet been shot in direction facing
+        //1 = right, -1 = left
+
+        //comment out code related to direction for the moment
+        //float facingDirection = transform.localScale.x > 0 ? 1f : -1f;
+        //Vector2 dir = new Vector2(facingDirection, 0f);
+
+        //GameObject proj = 
+       Debug.Log("Spawning projectile!");
+
+        GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
+        Debug.Log("Projectile position: " + proj.transform.position);
+        //proj.GetComponent<Projectile>().Init(dir);
     }
 }
 
