@@ -13,7 +13,7 @@ public class Projectile : MonoBehaviour
     private void Start()
 {
     Vector3 pos = transform.position;
-    pos.z = 0f; // force it to camera-friendly Z
+    pos.z = 0f; 
     transform.position = pos;
 
     startPosition = transform.position;
