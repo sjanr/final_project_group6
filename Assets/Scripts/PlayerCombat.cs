@@ -41,8 +41,11 @@ public class PlayerCombat : MonoBehaviour
 
     private void GunBlockLauncher()
     {
-        if (Time.time - ShotTime < GunBlockLauncherCooldown)
-        return; // still on cooldown
+        if (Time.time - ShotTime < GunBlockLauncherCooldown){
+            Debug.Log("still on cooldown");
+            return; // still on cooldown
+        }
+        
 
         ShotTime = Time.time;
         //implement a bullet been shot in direction facing
