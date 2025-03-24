@@ -7,6 +7,8 @@ public class Projectile : MonoBehaviour
 
     private Vector2 direction;
     private Vector2 startPosition;
+    public int damage = 1;
+
 
     private void Start()
 {
@@ -34,4 +36,17 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    // to deal damage
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("enemy"))
+        {
+            //call the damage method on the enemy class
+            Debug.Log("Hit a enemy");
+            Destroy(other.gameObject);
+        }
+
+        Destroy(gameObject);
+    }
+
 }
