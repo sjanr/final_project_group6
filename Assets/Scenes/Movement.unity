@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5584408456251684591, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
       propertyPath: m_GravityScale
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6750698060736514315, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
       propertyPath: m_Name
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpHeight: 10
+  jumpHeight: 11
   groundCheckRadius: 0.1
   groundCheck: {fileID: 1423171392}
   groundLayer:
