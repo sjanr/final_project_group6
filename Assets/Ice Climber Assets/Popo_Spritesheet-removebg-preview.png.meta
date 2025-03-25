@@ -1,0 +1,950 @@
+fileFormatVersion: 2
+guid: deac16485344224439f7c08000369449
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 947465028309799781
+    second: Popo_Spritesheet-removebg-preview_0
+  - first:
+      213: 5031518763273423358
+    second: Popo_Spritesheet-removebg-preview_1
+  - first:
+      213: 803628249722536743
+    second: Popo_Spritesheet-removebg-preview_2
+  - first:
+      213: 5200440048133765291
+    second: Popo_Spritesheet-removebg-preview_3
+  - first:
+      213: -8847298067244675122
+    second: Popo_Spritesheet-removebg-preview_4
+  - first:
+      213: 2549355293089335962
+    second: Popo_Spritesheet-removebg-preview_5
+  - first:
+      213: -2179790521022943623
+    second: Popo_Spritesheet-removebg-preview_6
+  - first:
+      213: -7585444330850201359
+    second: Popo_Spritesheet-removebg-preview_7
+  - first:
+      213: 8136343337345803121
+    second: Popo_Spritesheet-removebg-preview_8
+  - first:
+      213: -5013990138961437790
+    second: Popo_Spritesheet-removebg-preview_9
+  - first:
+      213: -3129039452652312003
+    second: Popo_Spritesheet-removebg-preview_10
+  - first:
+      213: -4148823592093458566
+    second: Popo_Spritesheet-removebg-preview_11
+  - first:
+      213: -3217582306436973038
+    second: Popo_Spritesheet-removebg-preview_12
+  - first:
+      213: 5612739337186304936
+    second: Popo_Spritesheet-removebg-preview_13
+  - first:
+      213: -764852144980055155
+    second: Popo_Spritesheet-removebg-preview_14
+  - first:
+      213: -3286622797007470654
+    second: Popo_Spritesheet-removebg-preview_15
+  - first:
+      213: 7199850188085541307
+    second: Popo_Spritesheet-removebg-preview_16
+  - first:
+      213: 1474266351040109395
+    second: Popo_Spritesheet-removebg-preview_17
+  - first:
+      213: 451935490807275080
+    second: Popo_Spritesheet-removebg-preview_18
+  - first:
+      213: 352845339156644102
+    second: Popo_Spritesheet-removebg-preview_19
+  - first:
+      213: 5042422018314641830
+    second: Popo_Spritesheet-removebg-preview_20
+  - first:
+      213: -8944521066112808295
+    second: Popo_Spritesheet-removebg-preview_21
+  - first:
+      213: 1121152925996985156
+    second: Popo_Spritesheet-removebg-preview_22
+  - first:
+      213: -3273979306074028519
+    second: Popo_Spritesheet-removebg-preview_23
+  - first:
+      213: -4216110499078456512
+    second: Popo_Spritesheet-removebg-preview_24
+  - first:
+      213: -8723741701358422081
+    second: Popo_Spritesheet-removebg-preview_25
+  - first:
+      213: -8986312176652717365
+    second: Popo_Spritesheet-removebg-preview_26
+  - first:
+      213: -6504198698093331825
+    second: Popo_Spritesheet-removebg-preview_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eb69371e1972948bb9419ab1b033df
+      internalID: 177450168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e545cc74cfbfb6418ada502bdc7140a
+      internalID: -2066397579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70394d4e7d2b9eb48bc750c749df9f32
+      internalID: 2038199616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122c5cfdc61a484590ea1864562ef4e
+      internalID: -1178180108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4c9054e1929d84a92f4993da5716da
+      internalID: -277018227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9379184092f2824b88d8d974cd54e71
+      internalID: 1100958559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7a9f994c3a7e499e5a6ef15f21515
+      internalID: 1658681933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 150
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df06432ad23b3724a8a43ec961a30c6f
+      internalID: 1430771840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56970e79cfe89d84382c4a2cb5207839
+      internalID: 975945513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8943a5c8071da47b0c433e5027737f
+      internalID: -353936279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfd26346d0087b4a9e973b6479e6620
+      internalID: 515045950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924367f217865b043ac2b743226cacd2
+      internalID: 1226524521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d1409185e5d649b5e34121c06bfd5
+      internalID: 834186500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 120
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e631c12554d044c9a209a793f6c90f
+      internalID: -892201781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b8fa182ca834a4caf0f00211ba80b9
+      internalID: 818991272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad61a77dbffaf9439b1e6797e5bbb75
+      internalID: 1671530434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a027b3c9204d649b598144b139b958
+      internalID: -2023784857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a2d2d3a08ce2e478fb10be06a47856
+      internalID: 862522266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 90
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54aa642021bc07d47b066d7c850f114b
+      internalID: -2116974440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee6dcaafe09c5248a65b6a0c10c6a9f
+      internalID: -1422492117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac888ad6150a0724ba1cf1d74ad8eb80
+      internalID: -537769592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8c33c52943bfc46bc106f6bfb4668b
+      internalID: -1249797221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 60
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519ae4c921c25d147af94276f80f0744
+      internalID: -1952384753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ef1bdd543c43747b68e5eb1605e5d6
+      internalID: -104403846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb5dc62c671df8438051b1fbe5f3b07
+      internalID: 1372515451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba82d592744204e40856aa6e69b7dfd4
+      internalID: -1436517698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 30
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb702194977e93942bc3e1d2ef6f604d
+      internalID: -7060199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e5f10334b07c641a26389fb40de43d
+      internalID: 1342670142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de69b56eae1fa78449f1e32c9e2e84a9
+      internalID: -1219121762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5212c8e754cb584894de152d806d792
+      internalID: 1635441969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5dabf1b5a258b469df95f4c6cfe54c
+      internalID: -543798618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Popo_Spritesheet-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89633156aecc7cd4fb0f5adcf34eaabc
+      internalID: -1517972690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 11beaabecf26c164b82fd24c6a5d91ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Popo_Spritesheet-removebg-preview_0: 177450168
+      Popo_Spritesheet-removebg-preview_1: -2066397579
+      Popo_Spritesheet-removebg-preview_10: 515045950
+      Popo_Spritesheet-removebg-preview_11: 1226524521
+      Popo_Spritesheet-removebg-preview_12: 834186500
+      Popo_Spritesheet-removebg-preview_13: -892201781
+      Popo_Spritesheet-removebg-preview_14: 818991272
+      Popo_Spritesheet-removebg-preview_15: 1671530434
+      Popo_Spritesheet-removebg-preview_16: -2023784857
+      Popo_Spritesheet-removebg-preview_17: 862522266
+      Popo_Spritesheet-removebg-preview_18: -2116974440
+      Popo_Spritesheet-removebg-preview_19: -1422492117
+      Popo_Spritesheet-removebg-preview_2: 2038199616
+      Popo_Spritesheet-removebg-preview_20: -537769592
+      Popo_Spritesheet-removebg-preview_21: -1249797221
+      Popo_Spritesheet-removebg-preview_22: -1952384753
+      Popo_Spritesheet-removebg-preview_23: -104403846
+      Popo_Spritesheet-removebg-preview_24: 1372515451
+      Popo_Spritesheet-removebg-preview_25: -1436517698
+      Popo_Spritesheet-removebg-preview_26: -7060199
+      Popo_Spritesheet-removebg-preview_27: 1342670142
+      Popo_Spritesheet-removebg-preview_28: -1219121762
+      Popo_Spritesheet-removebg-preview_29: 1635441969
+      Popo_Spritesheet-removebg-preview_3: -1178180108
+      Popo_Spritesheet-removebg-preview_30: -543798618
+      Popo_Spritesheet-removebg-preview_31: -1517972690
+      Popo_Spritesheet-removebg-preview_4: -277018227
+      Popo_Spritesheet-removebg-preview_5: 1100958559
+      Popo_Spritesheet-removebg-preview_6: 1658681933
+      Popo_Spritesheet-removebg-preview_7: 1430771840
+      Popo_Spritesheet-removebg-preview_8: 975945513
+      Popo_Spritesheet-removebg-preview_9: -353936279
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
