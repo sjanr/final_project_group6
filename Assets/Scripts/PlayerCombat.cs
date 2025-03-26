@@ -51,16 +51,16 @@ public class PlayerCombat : MonoBehaviour
         //implement a bullet been shot in direction facing
         //1 = right, -1 = left
 
-        //comment out code related to direction for the moment
-        //float facingDirection = transform.localScale.x > 0 ? 1f : -1f;
-        //Vector2 dir = new Vector2(facingDirection, 0f);
+        //code to get direction
+        float facingDirection = transform.localScale.x > 0 ? -1f : 1f;
+        Vector2 dir = new Vector2(facingDirection, 0f);
 
         //GameObject proj = 
        Debug.Log("Spawning projectile!");
 
         GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
         Debug.Log("Projectile position: " + proj.transform.position);
-        //proj.GetComponent<Projectile>().Init(dir);
+        proj.GetComponent<Projectile>().Init(dir);
     }
 }
 

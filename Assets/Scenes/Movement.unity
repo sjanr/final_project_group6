@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputHandler: {fileID: 1432983491}
-  checkDistance: 1
+  checkDistance: 2
   projectile: {fileID: 1911376616480099989, guid: 7217fa0414bb7064d8e7bf9444a735ae, type: 3}
   firePoint: {fileID: 844357343}
   GunBlockLauncherCooldown: 0.5
@@ -791,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1718382975634427080, guid: 1907aeb48835096418ad5b05ea868fcd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 1718382975634427080, guid: 1907aeb48835096418ad5b05ea868fcd, type: 3}
       propertyPath: m_LocalPosition.y
