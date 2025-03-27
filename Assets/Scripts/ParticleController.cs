@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ParticleController : MonoBehaviour
 {
+    // Class code source: https://www.youtube.com/watch?v=52hW2y6D8sw
+
     [SerializeField] ParticleSystem movementParticle;
 
     [Range(0, 10)]
