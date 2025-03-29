@@ -26,25 +26,30 @@ private void Update()
     float horizontalInput = Input.GetAxis("Horizontal");
     playerBody.linearVelocity = new Vector2(horizontalInput * speed, playerBody.linearVelocity.y);
 
-if (horizontalInput > 0.01f)
-{
-    transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f); // Facing right
-}
-else if (horizontalInput < -0.01f)
-{
-    transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // Facing left
-}
+    // Flip sprite
+    if (horizontalInput > 0.01f)
+        transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
+    else if (horizontalInput < -0.01f)
+        transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
 
-
+    // Animations
     animator.SetBool("isRunning", Mathf.Abs(horizontalInput) > 0.01f);
+    animator.SetBool("isJumping", !grounded); // <- Set jump animation when NOT grounded
 
-    if (Input.GetKey(KeyCode.Space) && grounded)
+    // Jump input
+    if (Input.GetKeyDown(KeyCode.Space) && grounded)
     {
         Jump();
+        animator.SetBool("isJumping", true); // Force jump animation
     }
+
+    // Reset animation state on land
+    if (grounded)
+    {
+        animator.SetBool("isJumping", false);
+    }
+
 }
-
-
     private void Jump()
     {
         playerBody.linearVelocity = new Vector2(playerBody.linearVelocity.x, jumpHeight);
