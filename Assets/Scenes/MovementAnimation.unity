@@ -394,6 +394,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6750698060736514315, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1773392906}
+    - targetCorrespondingSourceObject: {fileID: 6750698060736514315, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1773392909}
   m_SourcePrefab: {fileID: 100100000, guid: 4296165810f06b04abc2f56301dc5464, type: 3}
 --- !u!4 &673558843 stripped
 Transform:
@@ -609,6 +612,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 1773392909}
 --- !u!114 &1773392906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -626,6 +630,28 @@ MonoBehaviour:
   projectile: {fileID: 1911376616480099989, guid: 7217fa0414bb7064d8e7bf9444a735ae, type: 3}
   firePoint: {fileID: 844357343}
   GunBlockLauncherCooldown: 0.5
+--- !u!95 &1773392909
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773392896}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c70640c839ebe44c5895c81768c23349, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1779223837
 GameObject:
   m_ObjectHideFlags: 0
