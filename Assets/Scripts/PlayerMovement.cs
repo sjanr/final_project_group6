@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float groundCheckRadius;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Animator animator;
     private bool grounded;
     
     private void Awake()
@@ -18,28 +19,31 @@ public class PlayerMovement : MonoBehaviour
         playerBody = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
+private void Update()
+{
+    grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+    float horizontalInput = Input.GetAxis("Horizontal");
+    playerBody.linearVelocity = new Vector2(horizontalInput * speed, playerBody.linearVelocity.y);
+
+if (horizontalInput > 0.01f)
+{
+    transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f); // Facing right
+}
+else if (horizontalInput < -0.01f)
+{
+    transform.localScale = new Vector3(0.5f, 0.5f, 0.5f); // Facing left
+}
+
+
+    animator.SetBool("isRunning", Mathf.Abs(horizontalInput) > 0.01f);
+
+    if (Input.GetKey(KeyCode.Space) && grounded)
     {
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
-        float horizontalInput = Input.GetAxis("Horizontal");
-        playerBody.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, playerBody.linearVelocity.y);
-
-        if (horizontalInput > 0.01f)
-        {
-            transform.localScale = new Vector3((float)-0.5, (float)0.5, (float)0.5);
-        }
-        if (horizontalInput < -0.01f)
-        {
-            transform.localScale = new Vector3((float)0.5, (float)0.5, (float)0.5);
-        }
-
-        if (Input.GetKey(KeyCode.Space) && grounded)
-        {
-            Jump();
-        }
-
+        Jump();
     }
+}
+
 
     private void Jump()
     {
