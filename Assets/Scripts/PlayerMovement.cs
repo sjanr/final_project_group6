@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     private bool grounded;
-    
+
     private void Awake()
     {
         playerBody = GetComponent<Rigidbody2D>();
@@ -45,5 +45,4 @@ public class PlayerMovement : MonoBehaviour
     {
         playerBody.linearVelocity = new Vector2(playerBody.linearVelocity.x, jumpHeight);
     }
-
 }
