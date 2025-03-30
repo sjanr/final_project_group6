@@ -42,6 +42,7 @@ public class InputHandler : MonoBehaviour{
                     break;
                 case WeaponType.Weapon2:
                     Debug.Log("weapon gun activated");
+                    if (!isGrounded) { break; }
                     GunBlockLauncher?.Invoke();
                     break;
             }
