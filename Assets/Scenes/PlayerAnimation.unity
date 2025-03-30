@@ -5471,6 +5471,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6750698060736514315, guid: 6784f5bbe4bba4354875ac64402fa183, type: 3}
       insertIndex: -1
       addedObject: {fileID: 679788396}
+    - targetCorrespondingSourceObject: {fileID: 6750698060736514315, guid: 6784f5bbe4bba4354875ac64402fa183, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 679788397}
   m_SourcePrefab: {fileID: 100100000, guid: 6784f5bbe4bba4354875ac64402fa183, type: 3}
 --- !u!1 &679788390 stripped
 GameObject:
@@ -5499,6 +5502,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &679788392 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5584408456251684591, guid: 6784f5bbe4bba4354875ac64402fa183, type: 3}
+  m_PrefabInstance: {fileID: 679788389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &679788395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3719920562046857789, guid: 6784f5bbe4bba4354875ac64402fa183, type: 3}
@@ -5519,11 +5527,28 @@ MonoBehaviour:
   speed: 5
   jumpHeight: 13
   groundCheckRadius: 0.1
-  groundCheck: {fileID: 594608853}
+  groundCheck: {fileID: 737008408}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  animator: {fileID: 0}
+    m_Bits: 64
+  animator: {fileID: 679788391}
+--- !u!114 &679788397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679788390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24bbd9f00e9fd4479acd8327408889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputHandler: {fileID: 2127150266}
+  checkDistance: 2
+  projectile: {fileID: 1911376616480099989, guid: 222708fffb44c4c4681fd27c2b601d33, type: 3}
+  firePoint: {fileID: 1728436025}
+  GunBlockLauncherCooldown: 0.5
 --- !u!1 &680013819
 GameObject:
   m_ObjectHideFlags: 0
@@ -5723,7 +5748,7 @@ Transform:
   m_GameObject: {fileID: 737008407}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.4196128, y: -0.93212414, z: 0.1001018}
+  m_LocalPosition: {x: -0.43, y: -1.43, z: 0.1001018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10814,11 +10839,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1120076087583916249, guid: bad347fdbf30e6f4fa8ef08086f6effa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3326128
+      value: 0.72
       objectReference: {fileID: 0}
     - target: {fileID: 1120076087583916249, guid: bad347fdbf30e6f4fa8ef08086f6effa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9101238
+      value: -1.39
       objectReference: {fileID: 0}
     - target: {fileID: 1120076087583916249, guid: bad347fdbf30e6f4fa8ef08086f6effa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10894,7 +10919,7 @@ MonoBehaviour:
   movementParticle: {fileID: 1704687641}
   occurAfterVelocity: 1
   dustFormationPeriod: 0
-  playerRB: {fileID: 0}
+  playerRB: {fileID: 679788392}
 --- !u!1001 &1705116658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11723,11 +11748,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1718382975634427080, guid: 1907aeb48835096418ad5b05ea868fcd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4673872
+      value: -1.36
       objectReference: {fileID: 0}
     - target: {fileID: 1718382975634427080, guid: 1907aeb48835096418ad5b05ea868fcd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.44987607
+      value: -0.56
       objectReference: {fileID: 0}
     - target: {fileID: 1718382975634427080, guid: 1907aeb48835096418ad5b05ea868fcd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12585,6 +12610,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 901a176383c7e194aaafa2aa799124c0, type: 3}
+--- !u!114 &2127150266 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3820494013843258422, guid: 901a176383c7e194aaafa2aa799124c0, type: 3}
+  m_PrefabInstance: {fileID: 2127150265}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f71135b90d8d364a8f6412500a9e0b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7267992789748219869
 PrefabInstance:
   m_ObjectHideFlags: 0
