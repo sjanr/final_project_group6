@@ -41,9 +41,12 @@ public class Projectile : MonoBehaviour
     {
         if (other.CompareTag("enemy"))
         {
-            //call the damage method on the enemy class
-            Debug.Log("Hit a enemy");
-            Destroy(other.gameObject);
+            //check hot on ememy
+            EnemyController enemy = other.GetComponent<EnemyController>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
         }
 
         Destroy(gameObject);
