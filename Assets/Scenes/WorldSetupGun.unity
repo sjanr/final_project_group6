@@ -10467,7 +10467,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  launcher: {fileID: 1996767460}
+  grounded: 0
 --- !u!1 &1442497886 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 701784189046151957, guid: 5274eebaeaae94ed4b97b93f56910f9a, type: 3}
@@ -13222,6 +13222,10 @@ PrefabInstance:
       propertyPath: launcher
       value: 
       objectReference: {fileID: 1996767460}
+    - target: {fileID: 3820494013843258422, guid: 901a176383c7e194aaafa2aa799124c0, type: 3}
+      propertyPath: movement
+      value: 
+      objectReference: {fileID: 1428519052}
     - target: {fileID: 3820494013843258422, guid: 901a176383c7e194aaafa2aa799124c0, type: 3}
       propertyPath: jumpHeight
       value: 13

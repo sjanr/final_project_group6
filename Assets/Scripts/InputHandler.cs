@@ -11,18 +11,14 @@ public class InputHandler : MonoBehaviour{
     public enum WeaponType { Weapon1, Weapon2 }
     private WeaponType currentWeapon = WeaponType.Weapon1;
 
-    [Header("Ground Checks")]
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
-    private float groundCheckRadius = 0.1f;
-    private bool grounded;
+    [Header("Player Movement Reference")]
+    [SerializeField] private PlayerMovement movement;
 
     void Update(){
 
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        // Make sure launcher disappears when player jumps
-        if (currentWeapon == WeaponType.Weapon2 && !grounded) { launcher.SetActive(false); }
-        if (currentWeapon == WeaponType.Weapon2 && grounded) { launcher.SetActive(true); }
+        bool isGrounded = movement.grounded;
+        if (currentWeapon == WeaponType.Weapon2 && !isGrounded) { launcher.SetActive(false); }
+        if (currentWeapon == WeaponType.Weapon2 && isGrounded) { launcher.SetActive(true); }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
