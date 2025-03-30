@@ -40,7 +40,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-
     private void Jump()
     {
         playerBody.linearVelocity = new Vector2(playerBody.linearVelocity.x, jumpHeight);
