@@ -14,6 +14,9 @@ public class EnemyController : MonoBehaviour
     public float groundCheckDistance = 1f;
 
     private bool movingRight = true;
+    private float knockbackDuration = 0.2f;
+    private float knockbackTimer = 0f;
+
 
     private void Start()
     {
@@ -24,9 +27,17 @@ public class EnemyController : MonoBehaviour
     }
 
     private void Update()
+{
+    if (knockbackTimer > 0)
+    {
+        knockbackTimer -= Time.deltaTime;
+    }
+    else
     {
         Patrol();
     }
+}
+
 
     //used for movement
     private void Patrol()
@@ -68,8 +79,10 @@ public class EnemyController : MonoBehaviour
         currentHealth -= dmg;
 
         //attempt at knockback. does not currently work
-        float knockbackForce = 50f; 
+        float knockbackForce = 5f; 
         rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
+
+        knockbackTimer = knockbackDuration;
 
         if (currentHealth <= 0)
         {
@@ -78,12 +91,12 @@ public class EnemyController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-{
-    if (collision.collider.CompareTag("Player"))
     {
-        Debug.Log("Player collided with enemy");
-        Destroy(collision.gameObject);
+        if (collision.collider.CompareTag("Player"))
+        {
+            Debug.Log("Player collided with enemy");
+            Destroy(collision.gameObject);
+        }
     }
-}
 
 }
