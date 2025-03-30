@@ -9,6 +9,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private GameObject projectile;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float GunBlockLauncherCooldown = 0.5f;
+    [SerializeField] private ParticleSystem gunParticles;
     private float ShotTime = -Mathf.Infinity;
 
 
@@ -59,6 +60,7 @@ public class PlayerCombat : MonoBehaviour
        Debug.Log("Spawning projectile!");
 
         GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
+        gunParticles.Play();
         Debug.Log("Projectile position: " + proj.transform.position);
         proj.GetComponent<Projectile>().Init(dir);
     }
