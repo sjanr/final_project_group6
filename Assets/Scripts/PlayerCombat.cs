@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private Transform firePoint;
     [SerializeField] private float GunBlockLauncherCooldown = 0.5f;
     [SerializeField] private ParticleSystem gunParticles;
+    [SerializeField] private Animator recoil;
     private float ShotTime = -Mathf.Infinity;
 
 
@@ -61,6 +62,7 @@ public class PlayerCombat : MonoBehaviour
 
         GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
         gunParticles.Play();
+        recoil.SetTrigger("Shoot");
         Debug.Log("Projectile position: " + proj.transform.position);
         proj.GetComponent<Projectile>().Init(dir);
     }
