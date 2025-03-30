@@ -45,8 +45,10 @@ public class Projectile : MonoBehaviour
             EnemyController enemy = other.GetComponent<EnemyController>();
             if (enemy != null)
             {
-                enemy.TakeDamage(damage);
+                Vector2 hitDirection = (enemy.transform.position - transform.position).normalized;
+                enemy.TakeDamage(damage, hitDirection);
             }
+
         }
 
         Destroy(gameObject);

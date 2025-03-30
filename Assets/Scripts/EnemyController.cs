@@ -20,6 +20,7 @@ public class EnemyController : MonoBehaviour
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        spriteRenderer.flipX = movingRight;
     }
 
     private void Update()
@@ -47,13 +48,28 @@ public class EnemyController : MonoBehaviour
     private void Flip()
     {
         movingRight = !movingRight;
-        spriteRenderer.flipX = !spriteRenderer.flipX;
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = movingRight; 
+        }
+
+        if (groundCheck != null)
+        {
+                Vector3 checkPos = groundCheck.localPosition;
+                checkPos.x *= -1f;
+                groundCheck.localPosition = checkPos;
+        }
+
     }
 
     //enemy damge
-    public void TakeDamage(int dmg)
+    public void TakeDamage(int dmg,Vector2 hitDirection)
     {
         currentHealth -= dmg;
+
+        //attempt at knockback. does not currently work
+        float knockbackForce = 50f; 
+        rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
 
         if (currentHealth <= 0)
         {
@@ -61,11 +77,13 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (collision.collider.CompareTag("Player"))
     {
-        if (other.CompareTag("Player"))
-        {
-            Destroy(other.gameObject); // Later replace with player death logic if needed
-        }
+        Debug.Log("Player collided with enemy");
+        Destroy(collision.gameObject);
     }
+}
+
 }
