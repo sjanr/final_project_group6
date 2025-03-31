@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6591315329499905202}
   - component: {fileID: 8978923986427299925}
-  - component: {fileID: 2158039201443358369}
-  - component: {fileID: 9027509886716304535}
-  m_Layer: 0
+  - component: {fileID: 2751030485683244863}
+  m_Layer: 3
   m_Name: snowflake-proj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,34 +80,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5145442, y: 0.47720146}
   m_EdgeRadius: 0
---- !u!50 &2158039201443358369
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182490338322510655}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &9027509886716304535
+--- !u!114 &2751030485683244863
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +89,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1182490338322510655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7d748b17cd279541a31cfee1be4a166, type: 3}
+  m_Script: {fileID: 11500000, guid: 224aad61e0e5ea149a7eec781099bfed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
@@ -133,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3998861182133497215}
   - component: {fileID: 5469250223624982249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Snowflake_0003
   m_TagString: Untagged
   m_Icon: {fileID: 0}

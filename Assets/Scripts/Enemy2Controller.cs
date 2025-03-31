@@ -31,7 +31,7 @@ public class Enemy2Controller : MonoBehaviour
     void Shoot()
     {
         GameObject snowflake = Instantiate(snowflakePrefab, firePoint.position, Quaternion.identity);
-        Projectile snowflakeScript = snowflake.GetComponent<Projectile>();
+        projectileE snowflakeScript = snowflake.GetComponent<projectileE>();
 
         if (snowflakeScript != null)
         {
