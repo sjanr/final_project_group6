@@ -4361,10 +4361,10 @@ TextureImporter:
       name: Ice_Climber_Sprites_Transparent_150
       rect:
         serializedVersion: 2
-        x: 369
-        y: 133
-        width: 9
-        height: 15
+        x: 382
+        y: 116
+        width: 2
+        height: 2
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4383,10 +4383,10 @@ TextureImporter:
       name: Ice_Climber_Sprites_Transparent_151
       rect:
         serializedVersion: 2
-        x: 371
-        y: 115
-        width: 15
-        height: 33
+        x: 372
+        y: 116
+        width: 3
+        height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4427,10 +4427,10 @@ TextureImporter:
       name: Ice_Climber_Sprites_Transparent_153
       rect:
         serializedVersion: 2
-        x: 390
-        y: 115
-        width: 32
-        height: 33
+        x: 391
+        y: 116
+        width: 1
+        height: 1
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8265,6 +8265,8 @@ TextureImporter:
       Ice_Climber_Sprites_Transparent_313: 5295430464833018089
       Ice_Climber_Sprites_Transparent_314: -4336712160100533353
       Ice_Climber_Sprites_Transparent_315: -2582771365228784035
+      Ice_Climber_Sprites_Transparent_316: 1098161271
+      Ice_Climber_Sprites_Transparent_317: -166502027
       Ice_Climber_Sprites_Transparent_32: -1063250471619064014
       Ice_Climber_Sprites_Transparent_33: -1935480387645344660
       Ice_Climber_Sprites_Transparent_34: 6706626397225089003
