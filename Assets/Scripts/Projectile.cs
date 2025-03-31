@@ -39,10 +39,10 @@ public class Projectile : MonoBehaviour
     // to deal damage
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("enemy"))
+        if (other.CompareTag("enemy") || other.CompareTag("checkpoint"))
         {
             //call the damage method on the enemy class
-            Debug.Log("Hit a enemy");
+            Debug.Log("Hit: " + other.tag);
             Destroy(other.gameObject);
         }
 
