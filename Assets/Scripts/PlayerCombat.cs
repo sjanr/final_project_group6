@@ -9,7 +9,10 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private GameObject projectile;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float GunBlockLauncherCooldown = 0.5f;
+    [SerializeField] private ParticleSystem gunParticles;
+    [SerializeField] private Animator recoil;
     private float ShotTime = -Mathf.Infinity;
+    [SerializeField] private LayerMask blockLayerMask;
 
 
     private void OnEnable()
@@ -29,14 +32,28 @@ public class PlayerCombat : MonoBehaviour
     private void HammerBrickBreak()
     {
         Vector2 origin = transform.position;   
-        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance,blockLayerMask);
         Debug.DrawRay(origin, Vector2.up * checkDistance, Color.red, 1f);
 
 
-        if (hit.collider != null && hit.collider.CompareTag("block"))
+        /*if (hit.collider != null && hit.collider.CompareTag("block"))
         {
             Destroy(hit.collider.gameObject);
+        }*/
+
+         if (hit.collider != null)
+        {
+            Debug.Log("Hit: " + hit.collider.name + " | Tag: " + hit.collider.tag);
+
+            if (hit.collider.CompareTag("block"))
+            {
+                Debug.Log("Destroying block!");
+                Destroy(hit.collider.gameObject);
+            }
         }
+
+        
+
     }
 
     private void GunBlockLauncher()
@@ -59,6 +76,8 @@ public class PlayerCombat : MonoBehaviour
        Debug.Log("Spawning projectile!");
 
         GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
+        gunParticles.Play();
+        recoil.SetTrigger("Shoot");
         Debug.Log("Projectile position: " + proj.transform.position);
         proj.GetComponent<Projectile>().Init(dir);
     }

@@ -12,11 +12,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float groundCheckRadius;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+    public System.Boolean grounded;
 
     [Header("Animation")]
     [SerializeField] private Animator animator;
-
-    private bool grounded;
 
     private void Awake()
     {
@@ -55,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isJumping", false);
         }
     }
-
     private void Jump()
     {
         playerBody.linearVelocity = new Vector2(playerBody.linearVelocity.x, jumpHeight);
