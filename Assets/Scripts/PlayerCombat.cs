@@ -14,7 +14,6 @@ public class PlayerCombat : MonoBehaviour
     private float ShotTime = -Mathf.Infinity;
     [SerializeField] private LayerMask blockLayerMask;
 
-
     private void OnEnable()
     {
         inputHandler.HammerBrickBreak += HammerBrickBreak;
@@ -27,14 +26,12 @@ public class PlayerCombat : MonoBehaviour
         inputHandler.GunBlockLauncher -= GunBlockLauncher;
     }
 
-
     //break block above
     private void HammerBrickBreak()
     {
         Vector2 origin = transform.position;   
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance,blockLayerMask);
         Debug.DrawRay(origin, Vector2.up * checkDistance, Color.red, 1f);
-
 
         /*if (hit.collider != null && hit.collider.CompareTag("block"))
         {
@@ -43,17 +40,11 @@ public class PlayerCombat : MonoBehaviour
 
          if (hit.collider != null)
         {
-            Debug.Log("Hit: " + hit.collider.name + " | Tag: " + hit.collider.tag);
-
-            if (hit.collider.CompareTag("block"))
+            if (hit)
             {
-                Debug.Log("Destroying block!");
                 Destroy(hit.collider.gameObject);
             }
         }
-
-        
-
     }
 
     private void GunBlockLauncher()
@@ -63,7 +54,6 @@ public class PlayerCombat : MonoBehaviour
             return; // still on cooldown
         }
         
-
         ShotTime = Time.time;
         //implement a bullet been shot in direction facing
         //1 = right, -1 = left
