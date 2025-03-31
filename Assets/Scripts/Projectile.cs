@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
     pos.z = 0f; 
     transform.position = pos;
 
-    startPosition = transform.position;
+    //startPosition = transform.position;
 }
 
     public void Init(Vector2 moveDirection)
@@ -50,6 +50,13 @@ public class Projectile : MonoBehaviour
             }
 
         }
+
+        if (other.CompareTag("bullet"))
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
+
 
         Destroy(gameObject);
     }
