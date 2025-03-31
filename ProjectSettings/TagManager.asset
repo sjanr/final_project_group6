@@ -7,8 +7,11 @@ TagManager:
   - ground
   - block
   - Ground
+
   - enemy
   - bullet
+=======
+
   layers:
   - Default
   - TransparentFX
@@ -17,8 +20,13 @@ TagManager:
   - Water
   - UI
   - Ground
+
   - enemy
   - 
+
+  - Player
+  - breakblocks
+
   - 
   - 
   - 
