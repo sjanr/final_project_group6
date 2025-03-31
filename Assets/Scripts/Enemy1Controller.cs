@@ -1,6 +1,7 @@
+
 using UnityEngine;
 
-public class Enemy1Controller : MonoBehaviour
+public class Enemy1Controller : MonoBehaviour, IDamageable 
 {
     public float speed = 2f;
     public int maxHealth = 3;
@@ -76,7 +77,7 @@ public class Enemy1Controller : MonoBehaviour
     //enemy damge
     public void TakeDamage(int dmg,Vector2 hitDirection)
     {
-        Debug.Log($"{gameObject.name} took {dmg} damage. Current health: {currentHealth}");
+        //Debug.Log($"{gameObject.name} took {dmg} damage. Current health: {currentHealth}");
         currentHealth -= dmg;
 
         //attempt at knockback. does not currently work
@@ -93,7 +94,7 @@ public class Enemy1Controller : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("bullet"))
+        /*if (collision.collider.CompareTag("bullet"))
         {
             Projectile projectile = collision.collider.GetComponent<Projectile>();
             if (projectile != null)
@@ -103,7 +104,7 @@ public class Enemy1Controller : MonoBehaviour
                 TakeDamage(projectile.damage, hitDirection);
                 Destroy(projectile.gameObject);
             }
-        }
+        }*/
 
         if (collision.collider.CompareTag("Player"))
         {

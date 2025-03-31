@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -8,13 +9,14 @@ public class Projectile : MonoBehaviour
     private Vector2 direction;
     private Vector2 startPosition;
     public int damage = 1;
-
+    
 
     private void Start()
 {
     Vector3 pos = transform.position;
     pos.z = 0f; 
     transform.position = pos;
+    
 
     //startPosition = transform.position;
 }
@@ -39,18 +41,17 @@ public class Projectile : MonoBehaviour
     // to deal damage
     private void OnTriggerEnter2D(Collider2D other)
     {
-        /*
+        
         if (other.CompareTag("enemy"))
         {
             //check hot on ememy
-            EnemyController enemy = other.GetComponent<EnemyController>();
-            if (enemy != null)
+            IDamageable enemy = other.GetComponent<IDamageable>();            if (enemy != null)
             {
-                Vector2 hitDirection = (enemy.transform.position - transform.position).normalized;
+                Vector2 hitDirection = (other.transform.position - transform.position).normalized;
                 enemy.TakeDamage(damage, hitDirection);
             }
 
-        }*/
+        }
 
         if (other.CompareTag("bullet"))
         {
@@ -59,7 +60,7 @@ public class Projectile : MonoBehaviour
         }
 
 
-        //Destroy(gameObject);
+        Destroy(gameObject);
     }
 
 }

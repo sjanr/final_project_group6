@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Enemy2Controller : MonoBehaviour
+public class Enemy2Controller : MonoBehaviour,IDamageable
 {
     
     public GameObject snowflakePrefab;
@@ -41,9 +41,16 @@ public class Enemy2Controller : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int dmg)
+    public void TakeDamage(int dmg,Vector2 hitDirection)
     {
+        //Debug.Log($"{gameObject.name} took {dmg} damage. Current health: {currentHealth}");
         currentHealth -= dmg;
+
+        //attempt at knockback. does not currently work
+        //float knockbackForce = 5f; 
+        //rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
+
+        //knockbackTimer = knockbackDuration;
 
         if (currentHealth <= 0)
         {
@@ -53,16 +60,16 @@ public class Enemy2Controller : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("bullet"))
+        /*if (collision.collider.CompareTag("bullet"))
         {
             Projectile projectile = collision.collider.GetComponent<Projectile>();
             if (projectile != null)
             {
                 //Vector2 hitDirection = (transform.position - projectile.transform.position).normalized;
-                TakeDamage(projectile.damage);
+                TakeDamage(projectile.damage,);
                 Destroy(projectile.gameObject);
             }
-        }
+        }*/
 
         if (collision.collider.CompareTag("Player"))
         {
