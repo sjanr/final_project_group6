@@ -3,11 +3,12 @@ using UnityEngine;
 public class projectileE : MonoBehaviour
 {
     public float speed = 5f;
-    public float maxDistance = 100f;
+    
 
     private Vector2 direction;
     private Vector2 startPosition;
     public int damage = 1;
+    float maxDistance;
 
 
     private void Start()
@@ -19,11 +20,12 @@ public class projectileE : MonoBehaviour
     startPosition = transform.position;
 }
 
-    public void Init(Vector2 moveDirection)
+    public void Init(Vector2 moveDirection,float maxDist)
     {
         
         direction = moveDirection.normalized;
         startPosition = transform.position;
+        maxDistance = maxDist;
     }
 
     void Update()

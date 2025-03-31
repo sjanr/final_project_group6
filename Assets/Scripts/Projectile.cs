@@ -39,6 +39,7 @@ public class Projectile : MonoBehaviour
     // to deal damage
     private void OnTriggerEnter2D(Collider2D other)
     {
+        /*
         if (other.CompareTag("enemy"))
         {
             //check hot on ememy
@@ -49,7 +50,7 @@ public class Projectile : MonoBehaviour
                 enemy.TakeDamage(damage, hitDirection);
             }
 
-        }
+        }*/
 
         if (other.CompareTag("bullet"))
         {
@@ -58,7 +59,7 @@ public class Projectile : MonoBehaviour
         }
 
 
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
 }

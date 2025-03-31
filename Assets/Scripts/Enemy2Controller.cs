@@ -7,6 +7,8 @@ public class Enemy2Controller : MonoBehaviour
     public Transform firePoint;
     public Vector2 shootDirection = Vector2.left; // Can be changed in Inspector
     public float fireInterval = 2f;
+    public float projectileMaxDistance = 15f;
+
 
     public int maxHealth = 3;
     private int currentHealth;
@@ -35,11 +37,11 @@ public class Enemy2Controller : MonoBehaviour
 
         if (snowflakeScript != null)
         {
-            snowflakeScript.Init(shootDirection.normalized);
+            snowflakeScript.Init(shootDirection.normalized, projectileMaxDistance);
         }
     }
 
-    public void TakeDamage(int dmg, Vector2 hitDirection)
+    public void TakeDamage(int dmg)
     {
         currentHealth -= dmg;
 
@@ -51,6 +53,17 @@ public class Enemy2Controller : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.collider.CompareTag("bullet"))
+        {
+            Projectile projectile = collision.collider.GetComponent<Projectile>();
+            if (projectile != null)
+            {
+                //Vector2 hitDirection = (transform.position - projectile.transform.position).normalized;
+                TakeDamage(projectile.damage);
+                Destroy(projectile.gameObject);
+            }
+        }
+
         if (collision.collider.CompareTag("Player"))
         {
             Destroy(collision.gameObject); // Player dies on contact
