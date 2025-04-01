@@ -7,7 +7,15 @@ TagManager:
   - ground
   - block
   - Ground
+
+
+  - enemy
+  - bullet
+
+
+
   - checkpoint
+
   layers:
   - Default
   - TransparentFX
@@ -16,9 +24,18 @@ TagManager:
   - Water
   - UI
   - Ground
+
+  - enemy
+  - 
+
   - Player
   - breakblocks
+
+
+  - 
+
   - 'Checkpoint '
+
   - 
   - 
   - 
