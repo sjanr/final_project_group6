@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void StartGame()
     {
-
+        SceneManager.LoadScene("Level1v1Audio");
     }
     public void ExitGame()
     {
