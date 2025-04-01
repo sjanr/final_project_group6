@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour{
     public AudioClip shootClip;
     public AudioClip breakClip;
     public AudioClip footStepsClip; 
+    public AudioClip gameOverClip;
+
 
     public void Awake(){
         if(instance == null){

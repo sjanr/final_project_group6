@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class TimerManager : MonoBehaviour
 {
@@ -54,13 +55,27 @@ public class TimerManager : MonoBehaviour
 
     void GameOver()
     {
+        timerIsRunning = false;
+        StartCoroutine(PlayGameOverAndLoad());
+    }
+
+    IEnumerator PlayGameOverAndLoad()
+    {
+        AudioManager.instance.playSound(AudioManager.instance.gameOverClip);
+
+        float delay = AudioManager.instance.gameOverClip != null
+            ? AudioManager.instance.gameOverClip.length
+            : 1f; // fallback if clip is null
+
+        yield return new WaitForSeconds(delay);
+
         Time.timeScale = 1f;
-        SceneManager.LoadScene("GameOver"); 
+        SceneManager.LoadScene("GameOver");
     }
 
     void LoadNextLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(nextSceneName); 
+        SceneManager.LoadScene(nextSceneName);
     }
 }

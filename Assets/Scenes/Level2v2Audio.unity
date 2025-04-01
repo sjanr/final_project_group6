@@ -1727,6 +1727,7 @@ MonoBehaviour:
   shootClip: {fileID: 8300000, guid: d096bc267e25e4a9ba29eb9844b108dd, type: 3}
   breakClip: {fileID: 8300000, guid: cbe9039a8ad114526b6deb0fb9b6495d, type: 3}
   footStepsClip: {fileID: 8300000, guid: a948133482bd9461cbcb85c1b36c59b7, type: 3}
+  gameOverClip: {fileID: 8300000, guid: c00343968e27244bba50bdda6a33049a, type: 3}
 --- !u!4 &298277617
 Transform:
   m_ObjectHideFlags: 0
@@ -12666,7 +12667,7 @@ MonoBehaviour:
   timeRemaining: 90
   timerText: {fileID: 985702856}
   checkpoint: {fileID: 1990358915}
-  nextSceneName: Level2v1
+  nextSceneName: GameSuccesfull
 --- !u!4 &1282800963
 Transform:
   m_ObjectHideFlags: 0
