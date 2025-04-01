@@ -61,14 +61,14 @@ public class Projectile : MonoBehaviour
             //Destroy(gameObject);
         }
 
-        /*if (other.CompareTag("checkpoint"))
+        if (other.CompareTag("checkpoint"))
         {
             //call the damage method on the enemy class
             Debug.Log("Hit: " + other.tag);
 
             Destroy(other.gameObject);
             //Destroy(gameObject);
-        }*/
+        }
 
 
         Destroy(gameObject);
