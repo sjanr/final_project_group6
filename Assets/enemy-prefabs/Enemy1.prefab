@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4568291841997186324}
   - component: {fileID: 2303144357194206272}
-  - component: {fileID: 926719821418593358}
   - component: {fileID: 3270043473601068374}
+  - component: {fileID: 4444645961717965894}
   m_Layer: 7
   m_Name: Enemy1
   m_TagString: enemy
@@ -63,8 +63,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &926719821418593358
-BoxCollider2D:
+--- !u!114 &3270043473601068374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080085863366972330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b01729ff5bf754fa2ab780bf09bc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  maxHealth: 3
+  groundCheck: {fileID: 8896621834248584176}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheckDistance: 1
+--- !u!70 &4444645961717965894
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,37 +116,9 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!114 &3270043473601068374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1080085863366972330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39b01729ff5bf754fa2ab780bf09bc5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  maxHealth: 3
-  groundCheck: {fileID: 8896621834248584176}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCheckDistance: 1
+  m_Offset: {x: 0.0667904, y: -0.0039288998}
+  m_Size: {x: 1.1521884, y: 1.3850269}
+  m_Direction: 0
 --- !u!1 &5969308475098705398
 GameObject:
   m_ObjectHideFlags: 0
