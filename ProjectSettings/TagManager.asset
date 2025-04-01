@@ -8,9 +8,13 @@ TagManager:
   - block
   - Ground
 
+
   - enemy
   - bullet
-=======
+
+
+
+  - checkpoint
 
   layers:
   - Default
@@ -27,7 +31,11 @@ TagManager:
   - Player
   - breakblocks
 
+
   - 
+
+  - 'Checkpoint '
+
   - 
   - 
   - 
