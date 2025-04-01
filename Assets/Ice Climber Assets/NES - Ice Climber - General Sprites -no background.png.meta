@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: 56fc3fa9c947fdf49b54d2765190b507
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3384196976667291685
+    second: NES - Ice Climber - General Sprites -no background_0
+  - first:
+      213: 266799268117613067
+    second: NES - Ice Climber - General Sprites -no background_1
+  - first:
+      213: -664315377648602332
+    second: NES - Ice Climber - General Sprites -no background_2
+  - first:
+      213: 9060119126610368484
+    second: NES - Ice Climber - General Sprites -no background_3
+  - first:
+      213: 7312451471807440423
+    second: NES - Ice Climber - General Sprites -no background_4
+  - first:
+      213: 4026701431028621063
+    second: NES - Ice Climber - General Sprites -no background_5
+  - first:
+      213: -6113659509375052372
+    second: NES - Ice Climber - General Sprites -no background_6
+  - first:
+      213: 9010660118119618698
+    second: NES - Ice Climber - General Sprites -no background_7
+  - first:
+      213: 2976103324328176550
+    second: NES - Ice Climber - General Sprites -no background_8
+  - first:
+      213: 4995170139925762435
+    second: NES - Ice Climber - General Sprites -no background_9
+  - first:
+      213: 57487545333228353
+    second: NES - Ice Climber - General Sprites -no background_10
+  - first:
+      213: 4386783155247769929
+    second: NES - Ice Climber - General Sprites -no background_11
+  - first:
+      213: 2248312792099711264
+    second: NES - Ice Climber - General Sprites -no background_12
+  - first:
+      213: 1456009029482093215
+    second: NES - Ice Climber - General Sprites -no background_13
+  - first:
+      213: 5652629268450278367
+    second: NES - Ice Climber - General Sprites -no background_14
+  - first:
+      213: -2004995670679166849
+    second: NES - Ice Climber - General Sprites -no background_15
+  - first:
+      213: -4215285070133010405
+    second: NES - Ice Climber - General Sprites -no background_16
+  - first:
+      213: 5690339223965758318
+    second: NES - Ice Climber - General Sprites -no background_17
+  - first:
+      213: -2990710815872911780
+    second: NES - Ice Climber - General Sprites -no background_18
+  - first:
+      213: -6564615251246900989
+    second: NES - Ice Climber - General Sprites -no background_19
+  - first:
+      213: 2078834216072226943
+    second: NES - Ice Climber - General Sprites -no background_20
+  - first:
+      213: 6217567541295577831
+    second: NES - Ice Climber - General Sprites -no background_21
+  - first:
+      213: -2365523452567080600
+    second: NES - Ice Climber - General Sprites -no background_22
+  - first:
+      213: 6451117782765503729
+    second: NES - Ice Climber - General Sprites -no background_23
+  - first:
+      213: -5049049446252840493
+    second: NES - Ice Climber - General Sprites -no background_24
+  - first:
+      213: -9133080389012687926
+    second: NES - Ice Climber - General Sprites -no background_25
+  - first:
+      213: -2924505551591785648
+    second: NES - Ice Climber - General Sprites -no background_26
+  - first:
+      213: 498573271813612711
+    second: NES - Ice Climber - General Sprites -no background_27
+  - first:
+      213: 4956986563168729867
+    second: NES - Ice Climber - General Sprites -no background_28
+  - first:
+      213: -2820961106626239332
+    second: NES - Ice Climber - General Sprites -no background_29
+  - first:
+      213: -4587414735891367391
+    second: NES - Ice Climber - General Sprites -no background_30
+  - first:
+      213: 1895556761654120072
+    second: NES - Ice Climber - General Sprites -no background_31
+  - first:
+      213: 6355315526326160083
+    second: NES - Ice Climber - General Sprites -no background_32
+  - first:
+      213: 4053855080818226399
+    second: NES - Ice Climber - General Sprites -no background_33
+  - first:
+      213: 3978848713368816264
+    second: NES - Ice Climber - General Sprites -no background_34
+  - first:
+      213: 5741968312001484218
+    second: NES - Ice Climber - General Sprites -no background_35
+  - first:
+      213: 101532650838790482
+    second: NES - Ice Climber - General Sprites -no background_36
+  - first:
+      213: 1705377809403284394
+    second: NES - Ice Climber - General Sprites -no background_37
+  - first:
+      213: 2857676089533769595
+    second: NES - Ice Climber - General Sprites -no background_38
+  - first:
+      213: 7984317312744511793
+    second: NES - Ice Climber - General Sprites -no background_39
+  - first:
+      213: -8661219691892531614
+    second: NES - Ice Climber - General Sprites -no background_40
+  - first:
+      213: -1227453676772666404
+    second: NES - Ice Climber - General Sprites -no background_41
+  - first:
+      213: 1998522843680491620
+    second: NES - Ice Climber - General Sprites -no background_42
+  - first:
+      213: -6036328768160271996
+    second: NES - Ice Climber - General Sprites -no background_43
+  - first:
+      213: 2282292540364314311
+    second: NES - Ice Climber - General Sprites -no background_44
+  - first:
+      213: -5635282033434933236
+    second: NES - Ice Climber - General Sprites -no background_45
+  - first:
+      213: 6718895255988964057
+    second: NES - Ice Climber - General Sprites -no background_46
+  - first:
+      213: 5557965672578349235
+    second: NES - Ice Climber - General Sprites -no background_47
+  - first:
+      213: 2221645109826261441
+    second: NES - Ice Climber - General Sprites -no background_48
+  - first:
+      213: -734786774625239395
+    second: NES - Ice Climber - General Sprites -no background_49
+  - first:
+      213: 7622781818720231395
+    second: NES - Ice Climber - General Sprites -no background_50
+  - first:
+      213: -7670330371370645828
+    second: NES - Ice Climber - General Sprites -no background_51
+  - first:
+      213: 5831064589668419254
+    second: NES - Ice Climber - General Sprites -no background_52
+  - first:
+      213: 1550577924084571049
+    second: NES - Ice Climber - General Sprites -no background_53
+  - first:
+      213: -3051234667938710037
+    second: NES - Ice Climber - General Sprites -no background_54
+  - first:
+      213: -468375986526458625
+    second: NES - Ice Climber - General Sprites -no background_55
+  - first:
+      213: -897543825885989401
+    second: NES - Ice Climber - General Sprites -no background_56
+  - first:
+      213: -191390835194752911
+    second: NES - Ice Climber - General Sprites -no background_57
+  - first:
+      213: 2898369575730237734
+    second: NES - Ice Climber - General Sprites -no background_58
+  - first:
+      213: -2855638928452573919
+    second: NES - Ice Climber - General Sprites -no background_59
+  - first:
+      213: -5260172295867610392
+    second: NES - Ice Climber - General Sprites -no background_60
+  - first:
+      213: 3949834638845480126
+    second: NES - Ice Climber - General Sprites -no background_61
+  - first:
+      213: -4962816598408791453
+    second: NES - Ice Climber - General Sprites -no background_62
+  - first:
+      213: -8030847303435383907
+    second: NES - Ice Climber - General Sprites -no background_63
+  - first:
+      213: 6106815742655577109
+    second: NES - Ice Climber - General Sprites -no background_64
+  - first:
+      213: -111381736976975204
+    second: NES - Ice Climber - General Sprites -no background_65
+  - first:
+      213: 3578708625680037121
+    second: NES - Ice Climber - General Sprites -no background_66
+  - first:
+      213: 6324128472402909580
+    second: NES - Ice Climber - General Sprites -no background_67
+  - first:
+      213: 1089028635317485154
+    second: NES - Ice Climber - General Sprites -no background_68
+  - first:
+      213: -101910171655151483
+    second: NES - Ice Climber - General Sprites -no background_69
+  - first:
+      213: -2318150558833491817
+    second: NES - Ice Climber - General Sprites -no background_70
+  - first:
+      213: -4335858042805117029
+    second: NES - Ice Climber - General Sprites -no background_71
+  - first:
+      213: 363651381590327141
+    second: NES - Ice Climber - General Sprites -no background_72
+  - first:
+      213: -207041618310542575
+    second: NES - Ice Climber - General Sprites -no background_73
+  - first:
+      213: 2619223488296169822
+    second: NES - Ice Climber - General Sprites -no background_74
+  - first:
+      213: 605958179615982215
+    second: NES - Ice Climber - General Sprites -no background_75
+  - first:
+      213: 6974370683723495222
+    second: NES - Ice Climber - General Sprites -no background_76
+  - first:
+      213: 8830382705761410122
+    second: NES - Ice Climber - General Sprites -no background_77
+  - first:
+      213: 2809899262137415416
+    second: NES - Ice Climber - General Sprites -no background_78
+  - first:
+      213: -8985637573728742594
+    second: NES - Ice Climber - General Sprites -no background_79
+  - first:
+      213: 1590758260092891623
+    second: NES - Ice Climber - General Sprites -no background_80
+  - first:
+      213: -1363586088009207476
+    second: NES - Ice Climber - General Sprites -no background_81
+  - first:
+      213: 4214072864288567450
+    second: NES - Ice Climber - General Sprites -no background_82
+  - first:
+      213: 3572416948313269662
+    second: NES - Ice Climber - General Sprites -no background_83
+  - first:
+      213: 1902277056831726881
+    second: NES - Ice Climber - General Sprites -no background_84
+  - first:
+      213: -9147690764503643327
+    second: NES - Ice Climber - General Sprites -no background_85
+  - first:
+      213: -8123526481460272371
+    second: NES - Ice Climber - General Sprites -no background_86
+  - first:
+      213: 958683320421622112
+    second: NES - Ice Climber - General Sprites -no background_87
+  - first:
+      213: -8784822907742261561
+    second: NES - Ice Climber - General Sprites -no background_88
+  - first:
+      213: -4580166534933909118
+    second: NES - Ice Climber - General Sprites -no background_89
+  - first:
+      213: -8990664583807754146
+    second: NES - Ice Climber - General Sprites -no background_90
+  - first:
+      213: -9053209688874191849
+    second: NES - Ice Climber - General Sprites -no background_91
+  - first:
+      213: 7772217777350867770
+    second: NES - Ice Climber - General Sprites -no background_92
+  - first:
+      213: 2472187338439738589
+    second: NES - Ice Climber - General Sprites -no background_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 186
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d218a313df23c4daea0999eee8af11
+      internalID: 1539495809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 186
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0809af4ff933f418f9d293303b330c
+      internalID: 372931245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 185
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dac0e5f4d7c8740b0fc0a7d8b37991
+      internalID: -1402522316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 185
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca47f1c24f6c6d44891814f9c21e37c
+      internalID: 264261711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 160
+        width: 66
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122a3501bb843ca40be377bd1892150a
+      internalID: 1911159767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 185
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1001e1fc8d1d55245901e5b49203faea
+      internalID: 1567510621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 186
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edec050e73e602646b357e44463b381b
+      internalID: 32927979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_7
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 185
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d3608901752f44b814c09eafa80088
+      internalID: -2017225838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 177
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c98cd38d6810eb4e83501540b0cf542
+      internalID: 982010240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 177
+        width: 73
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55856525cd4c8b14c8abfe1e47fa36cf
+      internalID: -1752598635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 152
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ed96c1719f994085c696767d522a6
+      internalID: 85031244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 152
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b4c66f6d04bf846949db9bdca6e374
+      internalID: 1686382414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 152
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6923ed7e75016914d9a5b894b16f387e
+      internalID: 217963283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 153
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a93a4bc9b22b934f8d8e3b80ed8a575
+      internalID: 350724529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 153
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4308456f1df024c8d51f1f8db31be4
+      internalID: -1693070995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 156
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2113bc7a467afe48af1b50a7648044b
+      internalID: 1853748627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55af0dd0db9cedf42a04a1592af61908
+      internalID: 873857252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 154
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5872855391f184da3ec07cf68f196a
+      internalID: -623675873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 153
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9608a2bfc5c24041b9798c0aed780eb
+      internalID: 662712286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 153
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a9c4a958dc754baab15941afbf23c
+      internalID: 2000684860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_20
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 125
+        width: 169
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea45e2d0d0fdd624eb3dad5c421b6c1b
+      internalID: -1091800055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 119
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84970899ba9b79340834349662243055
+      internalID: 456044637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 103
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63acf676f6db16a44b0a134224cee16a
+      internalID: -790958505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 119
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf49e76f7d14bcb4180e26a3a851f73a
+      internalID: 116612172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_24
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 120
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19ec352ac1313a438e79f0e27f913a1
+      internalID: -1274101983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 127
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6a649c154b1f94bb2c6325ed8f312a
+      internalID: -152686290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 119
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4723e59d4fe4f94184164c33553b178
+      internalID: -1866271400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_27
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 106
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a681605ffa6b41345846f41edb3192d2
+      internalID: 1933702593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 119
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aa985af4c57f74484fd3f7cd71a234
+      internalID: -16990929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 93
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17dbf81026f9c04083966276533f87a
+      internalID: -641069248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_30
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 116
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ab56740640f9f47937430850f5a94e
+      internalID: -1074355207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_31
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 86
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6ddfce04c113547a084085285aa407
+      internalID: 1733314772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_32
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 103
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9e14f5d9329bb47b9e1eae000b7503
+      internalID: -755103147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_33
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 108
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f6238d4f1cbf74da37d8f26dc7fc93
+      internalID: 702670426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 116
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50dd09ed76b82f4790e3d07fc0a3acd
+      internalID: -1575694485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_35
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 87
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef95b6a930c1c5449c26ce00d7d7410
+      internalID: -482537919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 87
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e423da11ddfadd24e9f6f69001999371
+      internalID: -1120450835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_37
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 87
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ef3278d454d354cb39486b390a555f
+      internalID: -1365795557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 77
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b417bde8e8421a4faf0e182f7f6da00
+      internalID: 239938472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_39
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 116
+        width: 41
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297e2fccda332ba468b50008da20022b
+      internalID: -943240364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 77
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0226e98ce5665304e9ab218408027200
+      internalID: -1694088552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_41
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 108
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c971704feba040a4a42fbd264d945
+      internalID: 1115405885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_42
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 86
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507edc2ead47551428cf719096a6b762
+      internalID: -280033968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_43
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 86
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aae30b812191d4c999a8585e721ae6
+      internalID: 1870915732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_44
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 86
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1879f8070b1717c4c825c459bc380076
+      internalID: -186453030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_45
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 61
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c816782c6ddd642bf2b3bf8e618079
+      internalID: 748331248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 61
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7528e52913b32cd44ad0c131eb75271c
+      internalID: -706645632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_47
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 86
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107344cb9605c5e44b0b8f80859cede7
+      internalID: 916308984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_48
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 86
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ae86c8caa4a748948c80f2f6c350c
+      internalID: 78910234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_49
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 86
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab32eee19579384aa13a86edc1634f1
+      internalID: 211745509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_50
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 86
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb32e0b8daa0fcf4e956e1c0067ecb81
+      internalID: 518649079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_51
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 86
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed76cd4d5fd7c4580d2a9358981f01
+      internalID: 1527913460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_52
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 61
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fc4f12f673f4745ad252eb33b82676
+      internalID: 1337271098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 78
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bdf35d63c2fb94596efdc4290bb835
+      internalID: -2131541369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_54
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 55
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936f921dd85af93499dbf81a37a266ae
+      internalID: 1381633774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_55
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 18
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8325473850ea14ba500c9910f9ff57
+      internalID: 682046413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_56
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 56
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7281800f14a2d0043a2122370e07abe3
+      internalID: 339662461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_57
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 55
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7641a769b67d2e40b9608a676da80e8
+      internalID: 2105876448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c05a107262ddc34b97cc1eff86c1e9b
+      internalID: -184121501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_59
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 52
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7b909f1ed23f74183389ba2b48cb68
+      internalID: -43267244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 52
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19e5ce100b90e54b94547aa57c67c4c
+      internalID: -810347383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 52
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaec5a37accd2c941a007b70d99427ee
+      internalID: 1459612276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 52
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab6673f437013946b9bea70f4a29b3c
+      internalID: -819512813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_63
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb5b99d86c20047a1a614ea57bac5f
+      internalID: 117858220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_64
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0a17bb7f58ee54b9287ca3f3cd6798
+      internalID: 919845634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 61
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8605703bedc1245b5d7cc9b46f477f
+      internalID: -299149674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 62
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039ef9bc73633594c807bc5046f1e142
+      internalID: -22159793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_67
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 69
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf2f1bc7c19ce64fa5c379cbbba4b39
+      internalID: -1452349131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 60
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec8e10265e1d624fa00376b9d6c054e
+      internalID: -149857588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 62
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a5cf1425b27d2469992296083d6f26
+      internalID: -1284611970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_70
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 55
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932323b3693d84a40b9b25a8db775e33
+      internalID: 950242310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_71
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 55
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8e092ec7483794b9e6eecc3adf78c9
+      internalID: -1143433393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_72
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 55
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f3a55feded26c4c94e587ebe7e05dd
+      internalID: 1534343060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_73
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 55
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2000fc117266048a22ef632455e5de
+      internalID: 1119696981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_74
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5091a4701b09b934aa632819875ff6a2
+      internalID: -357581270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_75
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 36
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b9cfbd768aa5a44af9c8dfa334a3f3
+      internalID: -47767299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_76
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 36
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d3c0ad1fc77d04eb3aab289e114e5f
+      internalID: -1868246694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_77
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 36
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9edd20557798d48b069b5871ba18de
+      internalID: -1027483947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 35
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c57a25e48bb48341a41cf89ec302740
+      internalID: -1643155614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_79
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8761e2295bdce4580b2fec3ce01b63
+      internalID: -520866187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_80
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31241e918dd78f84a97b7a572a8b0cc0
+      internalID: 2100611207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_81
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaa4ec2a006e1940aacd8d526c7ec53
+      internalID: 1762127952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_82
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 52
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809eacf8c54abda4bb4a0a1f1e196752
+      internalID: 1760833778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_83
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21b09b168e7a864980172faa7f9b428
+      internalID: -2027179069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_84
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 17
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ce636d0a9c924aa9e36676006dad3
+      internalID: 1039044019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_85
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c304cbd79a42141a73b1030d2aa4a3
+      internalID: 2127978375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_86
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 25
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf5aa1bd69586c4194e4460b14533ae
+      internalID: 1650181343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_87
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 22
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4ed8cc4a1d309458171e469116e42c
+      internalID: 1413552655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_88
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bc6bd6b0be0e14aa71f0fe8f259eea
+      internalID: -2131416695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 66
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8decfa08be5af4ba09efffe996ae4f
+      internalID: -508884842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71748a6650ef6074bb432ff408638901
+      internalID: 194181257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d694814c531e104bb739fdfad41724a
+      internalID: 487420668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_92
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 17
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a976e2c6433a44ab12dc32120196ea
+      internalID: -964814659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Ice Climber - General Sprites -no background_93
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 17
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126b2d46c8332e745aaba46fffe1cdfd
+      internalID: -727679081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2cb7a2236850275408dbbf7a73f4ecad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NES - Ice Climber - General Sprites -no background_0: 1539495809
+      NES - Ice Climber - General Sprites -no background_1: 372931245
+      NES - Ice Climber - General Sprites -no background_10: 85031244
+      NES - Ice Climber - General Sprites -no background_11: 1686382414
+      NES - Ice Climber - General Sprites -no background_12: 217963283
+      NES - Ice Climber - General Sprites -no background_13: 350724529
+      NES - Ice Climber - General Sprites -no background_14: -1693070995
+      NES - Ice Climber - General Sprites -no background_15: 1853748627
+      NES - Ice Climber - General Sprites -no background_16: 873857252
+      NES - Ice Climber - General Sprites -no background_17: -623675873
+      NES - Ice Climber - General Sprites -no background_18: 662712286
+      NES - Ice Climber - General Sprites -no background_19: 2000684860
+      NES - Ice Climber - General Sprites -no background_2: -1402522316
+      NES - Ice Climber - General Sprites -no background_20: -1091800055
+      NES - Ice Climber - General Sprites -no background_21: 456044637
+      NES - Ice Climber - General Sprites -no background_22: -790958505
+      NES - Ice Climber - General Sprites -no background_23: 116612172
+      NES - Ice Climber - General Sprites -no background_24: -1274101983
+      NES - Ice Climber - General Sprites -no background_25: -152686290
+      NES - Ice Climber - General Sprites -no background_26: -1866271400
+      NES - Ice Climber - General Sprites -no background_27: 1933702593
+      NES - Ice Climber - General Sprites -no background_28: -16990929
+      NES - Ice Climber - General Sprites -no background_29: -641069248
+      NES - Ice Climber - General Sprites -no background_3: 264261711
+      NES - Ice Climber - General Sprites -no background_30: -1074355207
+      NES - Ice Climber - General Sprites -no background_31: 1733314772
+      NES - Ice Climber - General Sprites -no background_32: -755103147
+      NES - Ice Climber - General Sprites -no background_33: 702670426
+      NES - Ice Climber - General Sprites -no background_34: -1575694485
+      NES - Ice Climber - General Sprites -no background_35: -482537919
+      NES - Ice Climber - General Sprites -no background_36: -1120450835
+      NES - Ice Climber - General Sprites -no background_37: -1365795557
+      NES - Ice Climber - General Sprites -no background_38: 239938472
+      NES - Ice Climber - General Sprites -no background_39: -943240364
+      NES - Ice Climber - General Sprites -no background_4: 1911159767
+      NES - Ice Climber - General Sprites -no background_40: -1694088552
+      NES - Ice Climber - General Sprites -no background_41: 1115405885
+      NES - Ice Climber - General Sprites -no background_42: -280033968
+      NES - Ice Climber - General Sprites -no background_43: 1870915732
+      NES - Ice Climber - General Sprites -no background_44: -186453030
+      NES - Ice Climber - General Sprites -no background_45: 748331248
+      NES - Ice Climber - General Sprites -no background_46: -706645632
+      NES - Ice Climber - General Sprites -no background_47: 916308984
+      NES - Ice Climber - General Sprites -no background_48: 78910234
+      NES - Ice Climber - General Sprites -no background_49: 211745509
+      NES - Ice Climber - General Sprites -no background_5: 1567510621
+      NES - Ice Climber - General Sprites -no background_50: 518649079
+      NES - Ice Climber - General Sprites -no background_51: 1527913460
+      NES - Ice Climber - General Sprites -no background_52: 1337271098
+      NES - Ice Climber - General Sprites -no background_53: -2131541369
+      NES - Ice Climber - General Sprites -no background_54: 1381633774
+      NES - Ice Climber - General Sprites -no background_55: 682046413
+      NES - Ice Climber - General Sprites -no background_56: 339662461
+      NES - Ice Climber - General Sprites -no background_57: 2105876448
+      NES - Ice Climber - General Sprites -no background_58: -184121501
+      NES - Ice Climber - General Sprites -no background_59: -43267244
+      NES - Ice Climber - General Sprites -no background_6: 32927979
+      NES - Ice Climber - General Sprites -no background_60: -810347383
+      NES - Ice Climber - General Sprites -no background_61: 1459612276
+      NES - Ice Climber - General Sprites -no background_62: -819512813
+      NES - Ice Climber - General Sprites -no background_63: 117858220
+      NES - Ice Climber - General Sprites -no background_64: 919845634
+      NES - Ice Climber - General Sprites -no background_65: -299149674
+      NES - Ice Climber - General Sprites -no background_66: -22159793
+      NES - Ice Climber - General Sprites -no background_67: -1452349131
+      NES - Ice Climber - General Sprites -no background_68: -149857588
+      NES - Ice Climber - General Sprites -no background_69: -1284611970
+      NES - Ice Climber - General Sprites -no background_7: -2017225838
+      NES - Ice Climber - General Sprites -no background_70: 950242310
+      NES - Ice Climber - General Sprites -no background_71: -1143433393
+      NES - Ice Climber - General Sprites -no background_72: 1534343060
+      NES - Ice Climber - General Sprites -no background_73: 1119696981
+      NES - Ice Climber - General Sprites -no background_74: -357581270
+      NES - Ice Climber - General Sprites -no background_75: -47767299
+      NES - Ice Climber - General Sprites -no background_76: -1868246694
+      NES - Ice Climber - General Sprites -no background_77: -1027483947
+      NES - Ice Climber - General Sprites -no background_78: -1643155614
+      NES - Ice Climber - General Sprites -no background_79: -520866187
+      NES - Ice Climber - General Sprites -no background_8: 982010240
+      NES - Ice Climber - General Sprites -no background_80: 2100611207
+      NES - Ice Climber - General Sprites -no background_81: 1762127952
+      NES - Ice Climber - General Sprites -no background_82: 1760833778
+      NES - Ice Climber - General Sprites -no background_83: -2027179069
+      NES - Ice Climber - General Sprites -no background_84: 1039044019
+      NES - Ice Climber - General Sprites -no background_85: 2127978375
+      NES - Ice Climber - General Sprites -no background_86: 1650181343
+      NES - Ice Climber - General Sprites -no background_87: 1413552655
+      NES - Ice Climber - General Sprites -no background_88: -2131416695
+      NES - Ice Climber - General Sprites -no background_89: -508884842
+      NES - Ice Climber - General Sprites -no background_9: -1752598635
+      NES - Ice Climber - General Sprites -no background_90: 194181257
+      NES - Ice Climber - General Sprites -no background_91: 487420668
+      NES - Ice Climber - General Sprites -no background_92: -964814659
+      NES - Ice Climber - General Sprites -no background_93: -727679081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
