@@ -8,6 +8,8 @@ TagManager:
   - block
   - Ground
   - bullet
+  - enemy
+  - checkpoint
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,6 @@ TagManager:
   - UI
   - Ground
   - DNB
-  - 
-  - 
   - 
   - 
   - 
