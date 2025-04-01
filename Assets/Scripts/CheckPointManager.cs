@@ -7,6 +7,11 @@ public class Checkpoint : MonoBehaviour
     {
         Debug.Log("Checkpoint destroyed!");
         //Timer will be notified here
+        TimerManager timer = FindObjectOfType<TimerManager>();
+            if (timer != null)
+            {
+                timer.NotifyCheckpointDestroyed();
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
