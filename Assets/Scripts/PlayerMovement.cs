@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     public System.Boolean grounded;
+    private float footstepCooldown = 0.3f;
+    private float footstepTimer = 0f;
 
     [Header("Animation")]
     [SerializeField] private Animator animator;
@@ -41,6 +43,16 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetBool("isRunning", Mathf.Abs(horizontalInput) > 0.01f);
         animator.SetBool("isInMidAir", !grounded);
+
+        if (grounded && Mathf.Abs(horizontalInput) > 0.01f)
+    {
+        footstepTimer -= Time.deltaTime;
+        if (footstepTimer <= 0f)
+        {
+            AudioManager.instance.playSound(AudioManager.instance.footStepsClip);
+            footstepTimer = footstepCooldown;
+        }
+    }
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
