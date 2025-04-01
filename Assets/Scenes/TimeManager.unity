@@ -7065,7 +7065,7 @@ MonoBehaviour:
   timeRemaining: 75
   timerText: {fileID: 1665319722}
   checkpoint: {fileID: 974160789}
-  nextSceneName: LevelTwoSetup
+  nextSceneName: Level2v1
 --- !u!4 &998851728
 Transform:
   m_ObjectHideFlags: 0
@@ -10661,6 +10661,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_v3
       objectReference: {fileID: 0}
+    - target: {fileID: 178539560283458751, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 922639656492101010, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1667166313818279941, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.52
@@ -10701,10 +10709,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2691886590690306991, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766387216651809969, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766387216651809969, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5097494752517582546, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
       propertyPath: inputHandler
       value: 
       objectReference: {fileID: 2127150266}
+    - target: {fileID: 6756101750911334379, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749598494257503653, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8761938571733777841, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8807397667818018024, guid: 58b612dd42c3dc94e995935e122976fe, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
