@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerManager : MonoBehaviour
 {
-    public float timeRemaining = 60f; // default for Level 1
+    public float timeRemaining = 75f; // default for Level 1
     public TextMeshProUGUI timerText;
     public GameObject checkpoint;
     public string nextSceneName = "Level2";
@@ -55,12 +55,12 @@ public class TimerManager : MonoBehaviour
     void GameOver()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("GameOver"); // make sure this is added to build settings
+        SceneManager.LoadScene("GameOver"); 
     }
 
     void LoadNextLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(nextSceneName); // set this in the Inspector per level
+        SceneManager.LoadScene(nextSceneName); 
     }
 }
