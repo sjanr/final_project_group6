@@ -11,7 +11,9 @@ public class Checkpoint : MonoBehaviour
             if (timer != null)
             {
                 timer.NotifyCheckpointDestroyed();
-        }
+            } else {
+            SceneManager.LoadScene("GameOver");
+            }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,7 +21,15 @@ public class Checkpoint : MonoBehaviour
         {
             Debug.Log("Player touched the checkpoint box — GAME OVER!");
 
-            SceneManager.LoadScene("GameOver"); 
+            Time.timeScale = 1f;
+            if (SceneManager.GetActiveScene().name.Equals("Level1v1Audio"))
+            {
+                SceneManager.LoadScene("Level2v2Audio");
+            }
+            else
+            {
+                SceneManager.LoadScene("GameSuccess");
+            }
         }
     }
 }

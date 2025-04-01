@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class projectileE : MonoBehaviour
 {
@@ -49,6 +50,8 @@ public class projectileE : MonoBehaviour
             Destroy(other.gameObject); // or call player.TakeDamage()
 
             Destroy(gameObject);
+
+            SceneManager.LoadScene("GameOver");
         }
 
         // Destroy when hit by a player's projectile

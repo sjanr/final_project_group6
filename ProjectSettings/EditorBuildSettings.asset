@@ -8,15 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: a59bf02f57ca6324887ee8d122599d58
-  - enabled: 0
-    path: Assets/Scenes/WorldSetup2.unity
-    guid: 2383d280c1bb52e4b9ebbee686621d0d
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Level1v1Audio.unity
+    guid: 70358d524f72846d68add4778f4c9dd0
+  - enabled: 1
+    path: Assets/Scenes/Level2v2Audio.unity
+    guid: 080a13d4ba0a6430a85ad7ad74c59847
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 10a9c7a399ef64bfc819aee8a3700ac7
+  - enabled: 1
+    path: Assets/Scenes/GameSuccess.unity
+    guid: cfc4985761105404c87abdf4c066fc99
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

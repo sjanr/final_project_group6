@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ade346c99bd433783091ff64e67583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  windForce: 200
+  windForce: 150
 --- !u!1 &112152143
 GameObject:
   m_ObjectHideFlags: 0
@@ -12667,7 +12667,6 @@ MonoBehaviour:
   timeRemaining: 135
   timerText: {fileID: 985702856}
   checkpoint: {fileID: 1990358915}
-  nextSceneName: GameSucces
 --- !u!4 &1282800963
 Transform:
   m_ObjectHideFlags: 0
@@ -21307,11 +21306,11 @@ PrefabInstance:
       objectReference: {fileID: 2127150266}
     - target: {fileID: 1679555795441508735, guid: f4780eb8176b0344f9bca2d0989fabd9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.52
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 1679555795441508735, guid: f4780eb8176b0344f9bca2d0989fabd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.82
+      value: -2.62
       objectReference: {fileID: 0}
     - target: {fileID: 1679555795441508735, guid: f4780eb8176b0344f9bca2d0989fabd9, type: 3}
       propertyPath: m_LocalPosition.z

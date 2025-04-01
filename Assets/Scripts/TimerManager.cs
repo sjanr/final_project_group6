@@ -8,7 +8,7 @@ public class TimerManager : MonoBehaviour
     public float timeRemaining = 75f; // default for Level 1
     public TextMeshProUGUI timerText;
     public GameObject checkpoint;
-    public string nextSceneName = "Level2";
+    // private string nextSceneName = "Level2v2Audio";
 
     private bool timerIsRunning = true;
     private bool checkpointDestroyed = false;
@@ -76,6 +76,14 @@ public class TimerManager : MonoBehaviour
     void LoadNextLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(nextSceneName);
+        if (SceneManager.GetActiveScene().name.Equals("Level1v1Audio"))
+        {
+            SceneManager.LoadScene("Level2v2Audio");
+        }
+        else
+        {
+            SceneManager.LoadScene("GameSuccess");
+        }
+        
     }
 }

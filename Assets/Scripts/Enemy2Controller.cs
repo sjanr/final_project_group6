@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy2Controller : MonoBehaviour,IDamageable
 {
@@ -74,6 +75,7 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
         if (collision.collider.CompareTag("Player"))
         {
             Destroy(collision.gameObject); // Player dies on contact
+            SceneManager.LoadScene("GameOver");
         }
     }
 

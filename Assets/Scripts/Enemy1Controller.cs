@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy1Controller : MonoBehaviour, IDamageable 
 {
@@ -110,6 +111,8 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
         {
             Debug.Log("Player collided with enemy");
             Destroy(collision.gameObject);
+
+            SceneManager.LoadScene("GameOver");
         }
     }
 
