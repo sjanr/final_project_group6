@@ -54,17 +54,21 @@ public class Projectile : MonoBehaviour
 
         }
 
-        //if (other.CompareTag("bullet"))
-        //{
+        if (other.CompareTag("bullet"))
+        {Debug.Log("Hit: " + other.tag);
 
-        if (other.CompareTag("enemy") || other.CompareTag("checkpoint"))
+            Destroy(other.gameObject);
+            //Destroy(gameObject);
+        }
+
+        /*if (other.CompareTag("checkpoint"))
         {
             //call the damage method on the enemy class
             Debug.Log("Hit: " + other.tag);
 
             Destroy(other.gameObject);
-            Destroy(gameObject);
-        }
+            //Destroy(gameObject);
+        }*/
 
 
         Destroy(gameObject);
