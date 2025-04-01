@@ -18,26 +18,31 @@ public class TimerManager : MonoBehaviour
     }
 
     void Update()
-    {
-        if (!timerIsRunning || checkpointDestroyed) return;
+{
+    if (!timerIsRunning || checkpointDestroyed) return;
 
-        if (timeRemaining > 0)
+    if (timeRemaining > 0)
+    {
+        timeRemaining -= Time.deltaTime;
+        if (timeRemaining < 0f)
         {
-            timeRemaining -= Time.deltaTime;
-            UpdateTimerDisplay();
+            timeRemaining = 0f;
         }
-        else
-        {
-            timeRemaining = 0;
-            GameOver();
-        }
+
+        UpdateTimerDisplay();
     }
+
+    if (timeRemaining <= 0f)
+    {
+        GameOver();
+    }
+}
 
     void UpdateTimerDisplay()
     {
         int minutes = Mathf.FloorToInt(timeRemaining / 60f);
         int seconds = Mathf.FloorToInt(timeRemaining % 60f);
-        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        timerText.text = $"Time Left: {minutes:00}:{seconds:00}";
     }
 
     public void NotifyCheckpointDestroyed()
