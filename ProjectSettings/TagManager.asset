@@ -7,35 +7,18 @@ TagManager:
   - ground
   - block
   - Ground
-
-
-  - enemy
   - bullet
-
-
-
-  - checkpoint
-
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - bullets
+  - 
   - Water
   - UI
   - Ground
-
-  - enemy
+  - DNB
   - 
-
-  - Player
-  - breakblocks
-
-
   - 
-
-  - 'Checkpoint '
-
   - 
   - 
   - 
@@ -61,12 +44,6 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 3105004303
-    locked: 0
-  - name: M
-    uniqueID: 1898532259
     locked: 0
   m_RenderingLayers:
   - Default
