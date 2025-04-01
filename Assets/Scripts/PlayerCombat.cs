@@ -42,6 +42,7 @@ public class PlayerCombat : MonoBehaviour
         {
             if (hit)
             {
+                AudioManager.instance.playSound(AudioManager.instance.breakClip);
                 Destroy(hit.collider.gameObject);
             }
         }
@@ -68,6 +69,7 @@ public class PlayerCombat : MonoBehaviour
         GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
         gunParticles.Play();
         recoil.SetTrigger("Shoot");
+        AudioManager.instance.playSound(AudioManager.instance.shootClip);
         Debug.Log("Projectile position: " + proj.transform.position);
         proj.GetComponent<Projectile>().Init(dir);
     }
