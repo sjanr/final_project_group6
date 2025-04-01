@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour{
     public AudioClip gameOverClip;
 
 
+
     public void Awake(){
         if(instance == null){
             instance = this;
