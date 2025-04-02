@@ -27,6 +27,20 @@ public class Projectile : MonoBehaviour
         
         direction = moveDirection.normalized;
         startPosition = transform.position;
+
+        if (direction.x < 0)
+        {
+            Vector3 scale = transform.localScale;
+            scale.x = -Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
+        else if (direction.x > 0)
+        {
+            Vector3 scale = transform.localScale;
+            scale.x = Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
+
     }
 
     //movement of projectile maintained in Init and update
@@ -39,6 +53,9 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    //flip projectile sprite
+
 
     // to deal damage
     private void OnTriggerEnter2D(Collider2D other)
