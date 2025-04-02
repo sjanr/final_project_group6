@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0cb9369d8bc1ab741a4e4c871ba053ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233846
+  packageName: Ghost with Axe
+  packageVersion: 1.2
+  assetPath: Assets/Ghost_with_Axe/Animations/Ghost1/Others/Ghost1_Idle_0.controller
+  uploadId: 536001

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c5676b57f330e4a4ab30acfc6d7f7f9d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 233846
+  packageName: Ghost with Axe
+  packageVersion: 1.2
+  assetPath: Assets/Ghost_with_Axe/Animations/Ghost1/1_run.anim
+  uploadId: 536001
