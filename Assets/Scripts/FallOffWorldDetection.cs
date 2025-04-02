@@ -9,7 +9,7 @@ public class FallOffWorldDetection : MonoBehaviour
         if (collision.collider.CompareTag("Player"))
         {
             Debug.Log("Player fell out of world");
-            //Destroy(collision.gameObject);
+            //Destroy(collision.gameObject); dont destory player breaks the game
 
             GameSession.lastLevel = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("GameOver");

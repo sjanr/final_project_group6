@@ -13,6 +13,7 @@ public class MovingCheckpoint : MonoBehaviour
         startPos = transform.position;
     }
 
+    //simple movement script for the checkpoint boss
     void Update()
     {
         float movement = moveSpeed * Time.deltaTime;

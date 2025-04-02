@@ -28,7 +28,7 @@ public class Checkpoint : MonoBehaviour
         if (other.CompareTag("bullet"))//if collision with bullet
         {
             Debug.Log("bullet touched the checkpoint box — next level");
-            //GameSession.lastLevel = SceneManager.GetActiveScene().name;
+            GameSession.lastLevel = SceneManager.GetActiveScene().name;
 
             // find current scene and move to next scene accordingly
             Time.timeScale = 1f;

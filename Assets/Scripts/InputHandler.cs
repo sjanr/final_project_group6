@@ -26,7 +26,7 @@ public class InputHandler : MonoBehaviour{
             currentWeapon = currentWeapon == WeaponType.Weapon1 ? WeaponType.Weapon2 : WeaponType.Weapon1;
             Debug.Log("switched to " + currentWeapon);
 
-            // Set launcher sprite active when 'e' pressed
+            //set launcher sprite active when 'e' pressed
             if (currentWeapon == WeaponType.Weapon1) { launcher.SetActive(false); }
             if (currentWeapon == WeaponType.Weapon2) { launcher.SetActive(true); }
         }

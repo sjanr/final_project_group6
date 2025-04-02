@@ -13,14 +13,14 @@ public class Projectile : MonoBehaviour
     
 
     private void Start()
-{
-    Vector3 pos = transform.position;
-    pos.z = 0f; 
-    transform.position = pos;
-    
+    {
+        Vector3 pos = transform.position;
+        pos.z = 0f; 
+        transform.position = pos;
+        
 
-    //startPosition = transform.position;
-}
+        //startPosition = transform.position;
+    }
 
     public void Init(Vector2 moveDirection)
     {
@@ -29,15 +29,16 @@ public class Projectile : MonoBehaviour
         startPosition = transform.position;
     }
 
+    //movement of projectile maintained in Init and update
     void Update()
-{
-    transform.Translate(direction * speed * Time.deltaTime);
-
-    if (Vector2.Distance(startPosition, transform.position) >= maxDistance)
     {
-        Destroy(gameObject);
+        transform.Translate(direction * speed * Time.deltaTime);
+
+        if (Vector2.Distance(startPosition, transform.position) >= maxDistance)
+        {
+            Destroy(gameObject);
+        }
     }
-}
 
     // to deal damage
     private void OnTriggerEnter2D(Collider2D other)
@@ -46,7 +47,7 @@ public class Projectile : MonoBehaviour
         
         if (other.CompareTag("enemy"))
         {
-            //check hot on ememy
+            //check hit on ememy
             IDamageable enemy = other.GetComponent<IDamageable>();            if (enemy != null)
             {
                 Vector2 hitDirection = (other.transform.position - transform.position).normalized;
@@ -55,6 +56,7 @@ public class Projectile : MonoBehaviour
 
         }
 
+        //projectile to projectile collision
         if (other.CompareTag("bullet"))
         {Debug.Log("Hit: " + other.tag);
 
@@ -71,7 +73,7 @@ public class Projectile : MonoBehaviour
             //Destroy(gameObject);
         }
 
-
+        //destory on all collisions
         Destroy(gameObject);
     }
 

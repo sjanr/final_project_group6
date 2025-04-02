@@ -19,7 +19,7 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
     private float knockbackDuration = 0.2f;
     private float knockbackTimer = 0f;
 
-
+    //initialise enemy
     private void Start()
     {
         currentHealth = maxHealth;
@@ -29,16 +29,18 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
     }
 
     private void Update()
-{
-    if (knockbackTimer > 0)
     {
-        knockbackTimer -= Time.deltaTime;
+        //enemy knockback on hit timer
+        if (knockbackTimer > 0)
+        {
+            knockbackTimer -= Time.deltaTime;
+        }
+        else
+        {
+            //call enemy movement methos
+            Patrol();
+        }
     }
-    else
-    {
-        Patrol();
-    }
-}
 
 
     //used for movement
@@ -53,7 +55,7 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
 
         if (!groundInfo.collider)
         {
-            Flip();
+            Flip();//flip sprite
         }
     }
 
@@ -66,6 +68,7 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
             spriteRenderer.flipX = movingRight; 
         }
 
+        //flip the ground check object to otherside of enemy
         if (groundCheck != null)
         {
                 Vector3 checkPos = groundCheck.localPosition;
@@ -79,9 +82,10 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
     public void TakeDamage(int dmg,Vector2 hitDirection)
     {
         //Debug.Log($"{gameObject.name} took {dmg} damage. Current health: {currentHealth}");
+        //deal damage
         currentHealth -= dmg;
 
-        //attempt at knockback. does not currently work
+        //knockback on hit
         float knockbackForce = 5f; 
         rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
 
@@ -95,6 +99,7 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //done from side of bullet since bullet tage sometimes does not register
         /*if (collision.collider.CompareTag("bullet"))
         {
             Projectile projectile = collision.collider.GetComponent<Projectile>();
@@ -107,6 +112,7 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
             }
         }*/
 
+        //in contact with player load gameover scene- Do not destroy player
         if (collision.collider.CompareTag("Player"))
         {
             Debug.Log("Player collided with enemy");

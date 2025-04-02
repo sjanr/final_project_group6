@@ -11,15 +11,16 @@ public class projectileE : MonoBehaviour
     public int damage = 1;
     float maxDistance;
 
+    //majority same as other projectile
 
     private void Start()
-{
-    Vector3 pos = transform.position;
-    pos.z = 0f; 
-    transform.position = pos;
+    {
+        Vector3 pos = transform.position;
+        pos.z = 0f; 
+        transform.position = pos;
 
-    startPosition = transform.position;
-}
+        startPosition = transform.position;
+    }
 
     public void Init(Vector2 moveDirection,float maxDist)
     {
@@ -30,14 +31,14 @@ public class projectileE : MonoBehaviour
     }
 
     void Update()
-{
-    transform.Translate(direction * speed * Time.deltaTime);
-
-    if (Vector2.Distance(startPosition, transform.position) >= maxDistance)
     {
-        Destroy(gameObject);
+        transform.Translate(direction * speed * Time.deltaTime);
+
+        if (Vector2.Distance(startPosition, transform.position) >= maxDistance)
+        {
+            Destroy(gameObject);
+        }
     }
-}
 
     // to deal damage
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,8 +46,6 @@ public class projectileE : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player hit by snowflake!");
-
-            // Later: implement player health system here
             //Destroy(other.gameObject); // or call player.TakeDamage()
 
             Destroy(gameObject);
@@ -54,7 +53,7 @@ public class projectileE : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
 
-        // Destroy when hit by a player's projectile
+        // destroy when hit by a player's projectile
         if (other.CompareTag("bullet"))
         {
             Debug.Log("Snowflake hit by player projectile");

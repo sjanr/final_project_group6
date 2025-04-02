@@ -29,14 +29,11 @@ public class PlayerCombat : MonoBehaviour
     //break block above
     private void HammerBrickBreak()
     {
+        //get block above player
         Vector2 origin = transform.position;   
         RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.up, checkDistance,blockLayerMask);
         Debug.DrawRay(origin, Vector2.up * checkDistance, Color.red, 1f);
 
-        /*if (hit.collider != null && hit.collider.CompareTag("block"))
-        {
-            Destroy(hit.collider.gameObject);
-        }*/
 
          if (hit.collider != null)
         {
@@ -63,9 +60,9 @@ public class PlayerCombat : MonoBehaviour
         float facingDirection = transform.localScale.x > 0 ? -1f : 1f;
         Vector2 dir = new Vector2(facingDirection, 0f);
 
-        //GameObject proj = 
-       Debug.Log("Spawning projectile!");
-
+     
+        Debug.Log("Spawning projectile!");
+        //display the projectile
         GameObject proj = Instantiate(projectile, firePoint.position, Quaternion.identity);
         gunParticles.Play();
         recoil.SetTrigger("Shoot");

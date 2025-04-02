@@ -9,12 +9,14 @@ public class DisappearPlatform : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Collider2D platformCollider;
 
+    //fetch componets needed
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         platformCollider = GetComponent<Collider2D>();
     }
 
+    //check for player laning on cloud
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
@@ -23,6 +25,7 @@ public class DisappearPlatform : MonoBehaviour
         }
     }
 
+    //disable cloud render
     private void Disappear()
     {
         spriteRenderer.enabled = false;
@@ -34,6 +37,7 @@ public class DisappearPlatform : MonoBehaviour
         }
     }
 
+    //enable cloud render
     private void Reappear()
     {
         spriteRenderer.enabled = true;

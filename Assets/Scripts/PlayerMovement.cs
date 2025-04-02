@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         playerBody = GetComponent<Rigidbody2D>();
     }
 
+    //basic movement of left and right with anaimation
     private void Update()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
@@ -45,14 +46,14 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isInMidAir", !grounded);
 
         if (grounded && Mathf.Abs(horizontalInput) > 0.01f)
-    {
-        footstepTimer -= Time.deltaTime;
-        if (footstepTimer <= 0f)
         {
-            AudioManager.instance.playSound(AudioManager.instance.footStepsClip);
-            footstepTimer = footstepCooldown;
+            footstepTimer -= Time.deltaTime;
+            if (footstepTimer <= 0f)
+            {
+                AudioManager.instance.playSound(AudioManager.instance.footStepsClip);
+                footstepTimer = footstepCooldown;
+            }
         }
-    }
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
@@ -66,12 +67,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isJumping", false);
         }
     }
+
+    //jump up
     private void Jump()
     {
         playerBody.linearVelocity = new Vector2(playerBody.linearVelocity.x, jumpHeight);
     }
 
-    // Draw ground check radius in Scene view
+    //draw ground check radius in Scene view
     private void OnDrawGizmosSelected()
     {
         if (groundCheck != null)

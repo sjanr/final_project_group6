@@ -6,7 +6,7 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
     
     public GameObject snowflakePrefab;
     public Transform firePoint;
-    public Vector2 shootDirection = Vector2.left; // Can be changed in Inspector
+    public Vector2 shootDirection = Vector2.left; 
     public float fireInterval = 2f;
     public float projectileMaxDistance = 15f;
 
@@ -31,6 +31,7 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
         }
     }
 
+    //implemet snowflake projectile shooting
     void Shoot()
     {
         GameObject snowflake = Instantiate(snowflakePrefab, firePoint.position, Quaternion.identity);
@@ -42,15 +43,16 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
         }
     }
 
+    //eventhough hit direction not used passed in due to interface IDamagable
     public void TakeDamage(int dmg,Vector2 hitDirection)
     {
         //Debug.Log($"{gameObject.name} took {dmg} damage. Current health: {currentHealth}");
         currentHealth -= dmg;
 
+        //removed knockback code for enemy 2
         //attempt at knockback. does not currently work
         //float knockbackForce = 5f; 
         //rb.AddForce(hitDirection * knockbackForce, ForceMode2D.Impulse);
-
         //knockbackTimer = knockbackDuration;
 
         if (currentHealth <= 0)
@@ -61,6 +63,7 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //code passed on from enemy1controller
         /*if (collision.collider.CompareTag("bullet"))
         {
             Projectile projectile = collision.collider.GetComponent<Projectile>();
@@ -72,9 +75,10 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
             }
         }*/
 
+        //if contact with player load game over
         if (collision.collider.CompareTag("Player"))
         {
-            //Destroy(collision.gameObject); // Player dies on contact
+            //Destroy(collision.gameObject); 
             GameSession.lastLevel = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("GameOver");
         }
