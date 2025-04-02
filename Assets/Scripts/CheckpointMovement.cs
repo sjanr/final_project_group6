@@ -20,13 +20,19 @@ public class MovingCheckpoint : MonoBehaviour
         {
             transform.Translate(Vector2.right * movement);
             if (Vector2.Distance(transform.position, startPos) >= moveDistance)
+            {
                 movingRight = false;
+                transform.localScale = new Vector3((float)-0.25, (float)0.25, (float)0.25);
+            }
         }
         else
         {
             transform.Translate(Vector2.left * movement);
             if (Vector2.Distance(transform.position, startPos) <= 0.1f)
+            {
                 movingRight = true;
+                transform.localScale = new Vector3((float)0.25, (float)0.25, (float)0.25);
+            }
         }
     }
 }
