@@ -61,6 +61,7 @@ public class TimerManager : MonoBehaviour
 
     IEnumerator PlayGameOverAndLoad()
     {
+        GameSession.lastLevel = SceneManager.GetActiveScene().name;
         AudioManager.instance.playSound(AudioManager.instance.gameOverClip);
 
         float delay = AudioManager.instance.gameOverClip != null
@@ -75,6 +76,7 @@ public class TimerManager : MonoBehaviour
 
     void LoadNextLevel()
     {
+        Debug.Log("Requesting to load next Level?");
         Time.timeScale = 1f;
         if (SceneManager.GetActiveScene().name.Equals("Level1v1Audio"))
         {
@@ -84,6 +86,5 @@ public class TimerManager : MonoBehaviour
         {
             SceneManager.LoadScene("GameSuccess");
         }
-        
     }
 }

@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        Debug.Log("Grounded: " + grounded); // Debug log to check if grounded is working
+        // Debug.Log("Grounded: " + grounded); // Debug log to check if grounded is working
 
         float horizontalInput = Input.GetAxis("Horizontal");
         playerBody.linearVelocity = new Vector2(Input.GetAxis("Horizontal") * speed, playerBody.linearVelocity.y);

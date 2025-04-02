@@ -74,7 +74,8 @@ public class Enemy2Controller : MonoBehaviour,IDamageable
 
         if (collision.collider.CompareTag("Player"))
         {
-            Destroy(collision.gameObject); // Player dies on contact
+            //Destroy(collision.gameObject); // Player dies on contact
+            GameSession.lastLevel = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("GameOver");
         }
     }

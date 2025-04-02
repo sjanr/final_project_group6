@@ -110,8 +110,9 @@ public class Enemy1Controller : MonoBehaviour, IDamageable
         if (collision.collider.CompareTag("Player"))
         {
             Debug.Log("Player collided with enemy");
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
 
+            GameSession.lastLevel = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene("GameOver");
         }
     }

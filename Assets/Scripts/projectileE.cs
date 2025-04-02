@@ -47,7 +47,7 @@ public class projectileE : MonoBehaviour
             Debug.Log("Player hit by snowflake!");
 
             // Later: implement player health system here
-            Destroy(other.gameObject); // or call player.TakeDamage()
+            //Destroy(other.gameObject); // or call player.TakeDamage()
 
             Destroy(gameObject);
 

@@ -1,19 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOverManager : MonoBehaviour
+public class GameSuccessManager : MonoBehaviour
 {
-    private void OnEnable()
-    {
-        Debug.Log("Loaded Game Over Screen");
-    }
-
     public void PlayAgain()
     {
         Time.timeScale = 1f;
-
         Debug.Log("Restarting from: " + GameSession.lastLevel);
-        SceneManager.LoadScene(GameSession.lastLevel);
+        SceneManager.LoadScene("Level1v1Audio"); // always go back to Level 1
     }
 
     public void ExitGame()
