@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2876860427586131562}
   - component: {fileID: 512048716260935576}
   - component: {fileID: 8253135374069537752}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GhostLevel1
   m_TagString: checkpoint
   m_Icon: {fileID: 0}

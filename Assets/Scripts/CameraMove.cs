@@ -14,17 +14,18 @@ public class CameraMove : MonoBehaviour
         currentYOffset = baseYOffset;
     }
 
+    //makes the camera follow the player
     private void Update()
     {
         float clampedX = Mathf.Max(player.position.x, minX);
 
-        // Decide the target offset based on height
+        //target offset based on height
         float targetYOffset = player.position.y < 2f ? baseYOffset : 0f;
 
-        // Smoothly transition toward the target offset
+        //smoothly transition toward the target offset
         currentYOffset = Mathf.Lerp(currentYOffset, targetYOffset, Time.deltaTime * transitionSpeed);
 
-        // Apply camera position
+        //set camera position
         this.transform.position = new Vector3(
             clampedX,
             player.position.y + currentYOffset,
