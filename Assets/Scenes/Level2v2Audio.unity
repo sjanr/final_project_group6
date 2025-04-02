@@ -1330,6 +1330,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5493770955800495397, guid: 39b1846ff64a1ab4db20b09aa4ea5647, type: 3}
+      propertyPath: hitsRequired
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769126467608312366, guid: 39b1846ff64a1ab4db20b09aa4ea5647, type: 3}
+      propertyPath: moveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192633522216221627, guid: 39b1846ff64a1ab4db20b09aa4ea5647, type: 3}
+      propertyPath: m_Size.x
+      value: 2.656892
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192633522216221627, guid: 39b1846ff64a1ab4db20b09aa4ea5647, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.7411581
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192633522216221627, guid: 39b1846ff64a1ab4db20b09aa4ea5647, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.09518218
+      objectReference: {fileID: 0}
     - target: {fileID: 7315819504331615763, guid: 39b1846ff64a1ab4db20b09aa4ea5647, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.25
@@ -1802,6 +1822,7 @@ MonoBehaviour:
   breakClip: {fileID: 8300000, guid: cbe9039a8ad114526b6deb0fb9b6495d, type: 3}
   footStepsClip: {fileID: 8300000, guid: a948133482bd9461cbcb85c1b36c59b7, type: 3}
   gameOverClip: {fileID: 8300000, guid: c00343968e27244bba50bdda6a33049a, type: 3}
+  gameSuccessClip: {fileID: 8300000, guid: 6decb4f752bb84be7abbfc7cb773d0a8, type: 3}
 --- !u!4 &298277617
 Transform:
   m_ObjectHideFlags: 0

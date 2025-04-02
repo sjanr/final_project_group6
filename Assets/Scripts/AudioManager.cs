@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour{
     public AudioClip breakClip;
     public AudioClip footStepsClip; 
     public AudioClip gameOverClip;
+    public AudioClip gameSuccessClip;
 
 
 

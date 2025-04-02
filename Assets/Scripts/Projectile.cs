@@ -61,17 +61,29 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        
+
         if (other.CompareTag("enemy"))
         {
             //check hit on ememy
-            IDamageable enemy = other.GetComponent<IDamageable>();            if (enemy != null)
+            IDamageable enemy = other.GetComponent<IDamageable>();            
+            if (enemy != null)
             {
                 Vector2 hitDirection = (other.transform.position - transform.position).normalized;
                 enemy.TakeDamage(damage, hitDirection);
             }
 
         }
+
+        if (other.CompareTag("checkpoint"))
+        {
+            IDamageable checkpoint = other.GetComponent<IDamageable>();
+            if (checkpoint != null)
+            {
+                Vector2 hitDirection = (other.transform.position - transform.position).normalized;
+                checkpoint.TakeDamage(damage, hitDirection);
+            }
+        }
+
 
         //projectile to projectile collision
         if (other.CompareTag("bullet"))
@@ -81,14 +93,6 @@ public class Projectile : MonoBehaviour
             //Destroy(gameObject);
         }
 
-        if (other.CompareTag("checkpoint"))
-        {
-            //call the damage method on the enemy class
-            Debug.Log("Hit: " + other.tag);
-
-            Destroy(other.gameObject);
-            //Destroy(gameObject);
-        }
 
         //destory on all collisions
         Destroy(gameObject);

@@ -7126,9 +7126,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 512048716260935576, guid: 9caeb2dcff732634e9891c083e9d5d0a, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3487803081297338268, guid: 9caeb2dcff732634e9891c083e9d5d0a, type: 3}
       propertyPath: m_Size.x
-      value: 2.1239777
+      value: 2.4977264
       objectReference: {fileID: 0}
     - target: {fileID: 3487803081297338268, guid: 9caeb2dcff732634e9891c083e9d5d0a, type: 3}
       propertyPath: m_Size.y
@@ -7136,7 +7140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3487803081297338268, guid: 9caeb2dcff732634e9891c083e9d5d0a, type: 3}
       propertyPath: m_Offset.x
-      value: -0.91534424
+      value: -0.72846985
       objectReference: {fileID: 0}
     - target: {fileID: 3487803081297338268, guid: 9caeb2dcff732634e9891c083e9d5d0a, type: 3}
       propertyPath: m_Offset.y
@@ -7592,6 +7596,7 @@ MonoBehaviour:
   breakClip: {fileID: 8300000, guid: cbe9039a8ad114526b6deb0fb9b6495d, type: 3}
   footStepsClip: {fileID: 8300000, guid: a948133482bd9461cbcb85c1b36c59b7, type: 3}
   gameOverClip: {fileID: 8300000, guid: c00343968e27244bba50bdda6a33049a, type: 3}
+  gameSuccessClip: {fileID: 0}
 --- !u!4 &961005065
 Transform:
   m_ObjectHideFlags: 0
